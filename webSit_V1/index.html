@@ -1,0 +1,2021 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>خدمات النقل من N-M Travel</title>
+    <meta name="description"
+          content="N-M Travel — خدمات نقل استثنائية بأسعار لا تقبل المنافسة في الغردقة والمناطق المحيطة.">
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-lang="ar">
+<canvas id="confetti-canvas"></canvas>
+<header class="header_section fixed-top bg-white">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#home" data-key="brand">N-M Travel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home" data-key="nav_home">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" data-key="nav_about">من نحن</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services" data-key="nav_services">خدماتنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery" data-key="nav_gallery">معرض الصور</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#video" data-key="nav_video">جولة فيديو</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#map" data-key="nav_map">خريطة الموقع</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-key="nav_contact">اتصل بنا</a></li>
+                </ul>
+                <a>
+                    <select class="btn btn-primary b" id="languageSelect" onchange="changeLanguage()">
+                        <option value="ar" selected>العربية</option>
+                        <option value="en">English</option>
+                        <option value="sr">Serbian</option>
+                        <option value="de">German</option>
+                        <option value="ru">Russian</option>
+                    </select></a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section id="home" class="hero_section" data-aos="fade-up">
+    <img src="car/k23.jpg" alt="ركوب الخيل" class="img-fluid rounded">
+    <div class="hero-content">
+        <h1 data-key="hero_title">استمتع برحلة مريحة مع N-M Travel</h1>
+        <p data-key="hero_text">نقدم خدمات نقل موثوقة وميسورة التكلفة في الغردقة والمناطق المحيطة.</p>
+
+        <!-- Summer Discount Banner -->
+        <div class="summer-offer-banner mt-3">
+            <span class="discount-badge" data-key="summer_offer">خصم صيفي 25% الآن!</span>
+        </div>
+
+        <a href="#services" class="call_to-btn mt-4" id="hero-btn" data-key="hero_cta">اكتشف خدماتنا</a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="text-center mb-4" data-key="about_title">N-M Travel</h2>
+
+        <p data-key="about_text">
+            N-M Travel هي شركة رائدة في تقديم خدمات السفر، نفخر بتقديم تجارب فريدة ولا تُنسى لعملائنا حول العالم.
+            مع أكثر من 20 عامًا من الخبرة في صناعة السياحة، نحن متخصصون في توفير مجموعة واسعة من الجولات والأنشطة، بما
+            في ذلك:
+        </p>
+
+        <ul>
+            <li data-key="about_list_cruises">
+                رحلات بحرية: استمتع بجولات قوارب مذهلة لاكتشاف أجمل الشواطئ والجزر، مع خدمات عالية الجودة على متن سفن
+                حديثة.
+            </li>
+            <li data-key="about_list_safari">
+                مغامرات السفاري: انطلق في رحلات سفاري مثيرة لاستكشاف الصحراء والاستمتاع برحلات مثيرة في مناظر طبيعية
+                خلابة.
+            </li>
+            <li data-key="about_list_culture">
+                جولات ثقافية: انغمس في التاريخ الغني والثقافة المحلية من خلال جولات إرشادية إلى المواقع التاريخية
+                والمعالم الفريدة.
+            </li>
+            <li data-key="about_list_entertainment">
+                أنشطة ترفيهية: نقدم مجموعة متنوعة من الأنشطة الترفيهية التي تلبي جميع الاهتمامات، مما يضمن تجربة ممتعة
+                للجميع.
+            </li>
+            <li data-key="about_list_water_sports">
+                رياضات مائية: اغمر نفسك في مجموعة من الأنشطة المائية المثيرة، من الغوص والركمجة إلى مجموعة متنوعة من
+                الألعاب الرياضية الشاطئية.
+            </li>
+        </ul>
+
+        <p data-key="about_commitment">
+            نحن نؤمن بأن العزيمة هي مصدر إلهامنا، وأن العمل الجاد هو وسيلتنا وهدفنا في تقديم أفضل تجربة سفر.
+            مع خبرتنا الطويلة في هذا المجال، نحن ملتزمون بتقديم خدمات سياحية استثنائية ولا تُنسى.
+            نحن دائمًا فخورون بعملنا ونتطلع إلى العمل معك لإنشاء تجارب سفر مذهلة وآمنة.
+        </p>
+
+        <h3 data-key="vision_title">رؤيتنا</h3>
+
+        <p data-key="vision_text1">
+            في N-M Travel، نهدف إلى أن نكون روادًا في تقديم تجارب سفر مبتكرة وممتعة على مستوى العالم.
+            رؤيتنا هي أن نكون الخيار الأول للمسافرين الذين يبحثون عن مغامرات لا تُنسى من خلال تقديم خدمات سفر شاملة تلبي
+            جميع احتياجات العملاء.
+        </p>
+
+        <p data-key="vision_text2">
+            نطمح إلى التوسع في أسواق جديدة وتطوير تقنيات مبتكرة لتعزيز تجربة العملاء، مع الحفاظ على أعلى معايير الجودة
+            والاحترافية.
+            نحن نؤمن بأن السفر ليس مجرد ترفيه، بل هو أيضًا تعلم واكتشاف، ولهذا نسعى لتقديم تجارب ثقافية متكاملة تساهم في
+            الوعي البيئي والثقافي.
+        </p>
+
+        <h3 data-key="goal_title">هدفنا</h3>
+
+        <p data-key="goal_text1">
+            هدفنا في N-M Travel هو تقديم تجارب سفر استثنائية تلبي جميع الأذواق وتلبي احتياجات المسافرين حول العالم.
+            نحن ملتزمون بأن نكون الخيار الأول لعملائنا من خلال توفير مجموعة واسعة من الجولات والأنشطة، من الرحلات
+            البحرية الممتعة إلى مغامرات السفاري المثيرة.
+        </p>
+
+        <p data-key="goal_text2">
+            نهدف إلى التميز في كل خدمة نقدمها، مع ضمان الجودة العالية والسلامة والراحة لعملائنا في كل مرحلة من مراحل
+            رحلتهم.
+            من خلال الابتكار المستمر، نحن ملتزمون بتقديم حلول سفر فريدة تجعل كل تجربة سفر لا تُنسى.
+        </p>
+    </div>
+</section>
+
+
+<section id="services" class="services-section">
+    <div class="container">
+        <h2 class="text-center mb-4" data-key="services_title">خدمات النقل</h2>
+        <div class="row">
+
+            <!-- خدمة الغردقة -->
+            <div class="col-md-6 mb-4" data-aos="fade-right">
+                <div class="service-card text-center p-3 border rounded shadow-sm">
+                    <img src="photo/k1.jpg" alt="نقل مطار الغردقة" class="img-fluid rounded mb-3">
+                    <a href="#contact" class="btn btn-primary" data-key="contact_us">تواصل معنا</a>
+                    <div>
+                        <h5 class="mb-3" data-key="airport_transfers">نقل من المطار إلى فنادق الغردقة</h5>
+                        <p class="text-muted" data-key="airport_transfers_description">استمتع بنقل مريح من مطار الغردقة
+                            إلى
+                            فندقك بخيارات تناسب الجميع:</p>
+                        <ul class="list-unstyled mb-3">
+                            <li data-key="limousine_option">🚘 ليموزين (حتى 4 أشخاص)</li>
+                            <li data-key="van_option">🚐 فان (حتى 13 شخصًا)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- خدمة سهل حشيش -->
+            <div class="col-md-6 mb-4" data-aos="fade-left">
+                <div class="service-card text-center p-3 border rounded shadow-sm">
+                    <img src="photo/k2.jpg" alt="نقل سهل حشيش" class="img-fluid rounded mb-3">
+                    <a href="#contact" class="btn btn-primary" data-key="contact_us">تواصل معنا</a>
+                    <div>
+                        <h5 data-key="airport_transfers_sahl">نقل من المطار إلى سهل حشيش</h5>
+                        <p data-key="airport_transfers_sahl_description">نقدم خدمات نقل مخصصة مع خيارات ليموزين وفان
+                            لضمان
+                            راحتك:</p>
+                        <ul class="list-unstyled mb-3">
+                            <li data-key="limousine_option_sahl">🚘 ليموزين (حتى 4 أشخاص)</li>
+                            <li data-key="van_option_sahl">🚐 فان (حتى 13 شخصًا)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- خدمة سوما باي -->
+            <div class="col-md-6 mb-4" data-aos="fade-right">
+                <div class="service-card text-center p-3 border rounded shadow-sm">
+                    <img src="photo/m2.jpg" alt="نقل سوما باي" class="img-fluid rounded mb-3">
+                    <a href="#contact" class="btn btn-primary" data-key="contact_us">تواصل معنا</a>
+                    <div>
+                        <h5 data-key="airport_transfers_soma">نقل إلى سوما باي وسفاجا</h5>
+                        <p data-key="airport_transfers_soma_description">استمتع بتجربة نقل مريحة مع خيارات تناسب
+                            مجموعاتك:</p>
+                        <ul class="list-unstyled mb-3">
+                            <li data-key="limousine_option_soma">🚘 ليموزين (حتى 4 أشخاص)</li>
+                            <li data-key="van_option_soma">🚐 فان (حتى 13 شخصًا)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- خدمة مكادي باي -->
+            <div class="col-md-6 mb-4" data-aos="fade-left">
+                <div class="service-card text-center p-3 border rounded shadow-sm">
+                    <img src="photo/m3.jpg" alt="نقل مكادي" class="img-fluid rounded mb-3">
+                    <a href="#contact" class="btn btn-primary" data-key="contact_us">تواصل معنا</a>
+                    <div>
+                        <h5 data-key="airport_transfers_makadi">نقل إلى مكادي باي</h5>
+                        <p data-key="airport_transfers_makadi_description">نقدم خدمات نقل مريحة تناسب احتياجاتك:</p>
+                        <ul class="list-unstyled mb-3">
+                            <li data-key="limousine_option_makadi">🚘 ليموزين (حتى 4 أشخاص)</li>
+                            <li data-key="van_option_makadi">🚐 فان (حتى 13 شخصًا)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- خدمة الجونة -->
+            <div class="col-md-6 mb-4" data-aos="fade-right">
+                <div class="service-card text-center p-3 border rounded shadow-sm">
+                    <img src="photo/m4.jpg" alt="نقل الجونة" class="img-fluid rounded mb-3">
+                    <a href="#contact" class="btn btn-primary" data-key="contact_us">تواصل معنا</a>
+                    <div>
+                        <h5 data-key="airport_transfers_elgouna">نقل إلى الجونة</h5>
+                        <p data-key="airport_transfers_elgouna_description">استمتع بنقل مخصص من مطار الغردقة إلى
+                            الجونة:</p>
+                        <ul class="list-unstyled mb-3">
+                            <li data-key="limousine_option_elgouna">🚘 ليموزين (حتى 4 أشخاص)</li>
+                            <li data-key="van_option_elgouna">🚐 فان (حتى 13 شخصًا)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- نقل مع انتظار -->
+            <div class="col-md-6 mb-4" data-aos="fade-left">
+                <div class="service-card text-center p-3 border rounded shadow-sm">
+                    <img src="photo/m5.jpg" alt="نقل مع انتظار" class="img-fluid rounded mb-3">
+                    <a href="#contact" class="btn btn-primary" data-key="contact_us">تواصل معنا</a>
+                    <div>
+                        <h5 data-key="transfers_unlimited_waiting">نقل مع وقت انتظار غير محدود</h5>
+                        <p data-key="transfers_unlimited_waiting_description">خدمات نقل مع انتظار مرن:</p>
+                        <ul class="list-unstyled mb-3">
+                            <li data-key="waiting_service_1">سفاجا/سوما باي ⇄ سنزو مول</li>
+                            <li data-key="waiting_service_2">سفاجا/سوما باي ⇄ مركز الغردقة</li>
+                            <li data-key="waiting_service_3">مكادي باي/سهل حشيش ⇄ مركز الغردقة</li>
+                            <li data-key="waiting_service_4">مركز الغردقة ⇄ الجونة</li>
+                            <li data-key="waiting_service_5">الجونة ⇄ مركز الغردقة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-6 mb-4" data-aos="fade-left">
+            <div class="service-card tour-card">
+                <img src="photo/m6.jpg" alt="القاهرة" class="img-fluid rounded mb-3 tour-image">
+                <a href="#contact" class="btn btn-gradient mt-4" data-key="book_now">احجز الآن</a>
+                <div>
+                    <div>
+                        <h3 class="tour-title" data-key="cairo_tour_title">جولة في المتحف المصري والقلعة والقاهرة
+                            القديمة</h3>
+                        <p class="tour-description" data-key="cairo_tour_description">
+                            انطلق في رحلة لا تُنسى عبر تاريخ القاهرة العريق! زُر المتحف المصري لتكتشف أسرار مصر القديمة،
+                            واستكشف عظمة قلعة صلاح الدين ومسجد محمد علي، واختتم يومك في قلب القاهرة القديمة بكنائسها
+                            التاريخية وآثارها الرومانية.
+                        </p>
+                        <ul class="tour-features">
+                            <li data-key="pickup_from_hotel">الاستقبال من الفندق</li>
+                            <li data-key="visit_egyptian_museum">زيارة المتحف المصري</li>
+                            <li data-key="explore_citadel">استكشاف قلعة صلاح الدين</li>
+                            <li data-key="islamic_cairo_tour">جولة في القاهرة الإسلامية</li>
+                            <li data-key="visit_old_cairo">زيارة القاهرة القديمة</li>
+                        </ul>
+                        <div class="included-section mt-3">
+                        </div>
+                        <h5 data-key="included">ما يشمل:</h5>
+                        <ul class="included-list">
+                            <li data-key="pickup_dropoff">الاستقبال والتوصيل من الفندق</li>
+                            <li data-key="air_conditioned_transport">جميع النقلات بمركبة مكيفة</li>
+                            <li data-key="private_guide">مرشد سياحي خاص</li>
+                            <li data-key="entrance_fees">رسوم الدخول إلى جميع المواقع</li>
+                            <li data-key="lunch_local_restaurant">غداء في مطعم محلي</li>
+                            <li data-key="all_tax_fees">جميع الرسوم الضريبية</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m7.jpg" alt="جولة مصرية" class="img-fluid rounded mb-3 tour-image">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="egyptian_tour_title">جولة مصرية شاملة مع رحلة نيلية إلى الأقصر وأسوان وشرم الشيخ</h5>
+                    <p data-key="egyptian_tour_description">استمتع بمغامرة لا تُنسى تجمع بين سحر التاريخ وروعة الطبيعة!
+                        ابدأ
+                        رحلتك من القاهرة، مرورًا
+                        بالأقصر وأسوان في رحلة نيلية فاخرة، وصولًا إلى شواطئ شرم الشيخ الهادئة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="itinerary">خطة الرحلة:</h5>
+                        <ul>
+                            <li data-key="day_1"><strong>اليوم الأول:</strong> الوصول إلى القاهرة</li>
+                            <li data-key="day_2"><strong>اليوم الثاني:</strong> زيارة الأهرامات والمتحف المصري</li>
+                            <li data-key="day_3"><strong>اليوم الثالث:</strong> السفر إلى الأقصر</li>
+                            <li data-key="day_4"><strong>اليوم الرابع:</strong> الأقصر - إسنا - إدفو</li>
+                            <li data-key="day_5"><strong>اليوم الخامس:</strong> إدفو - كوم أمبو - أسوان</li>
+                            <li data-key="day_6"><strong>اليوم السادس:</strong> اكتشاف أسوان</li>
+                            <li data-key="day_7"><strong>اليوم السابع:</strong> العودة إلى القاهرة ثم إلى شرم الشيخ</li>
+                            <li data-key="day_8"><strong>اليوم الثامن:</strong> الاستجمام في شرم الشيخ</li>
+                            <li data-key="day_9"><strong>اليوم التاسع:</strong> يوم حر في شرم الشيخ</li>
+                            <li data-key="day_10"><strong>اليوم العاشر:</strong> العودة إلى القاهرة</li>
+                            <li data-key="day_11"><strong>اليوم الحادي عشر:</strong> المغادرة النهائية</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">ما يشمل:</h5>
+                        <ul>
+                            <li data-key="airport_pickup_dropoff">الاستقبال والتوصيل من وإلى المطار</li>
+                            <li data-key="luxury_hotels">الإقامة في فنادق فاخرة 5 نجوم</li>
+                            <li data-key="luxury_nile_cruise">رحلة نيلية فاخرة بين الأقصر وأسوان</li>
+                            <li data-key="meals_as_per_program">وجبات حسب البرنامج</li>
+                            <li data-key="tickets_to_attractions">جميع تذاكر دخول المزارات السياحية</li>
+                            <li data-key="professional_guide">مرشد سياحي خاص محترف يتحدث العربية</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m8.jpg" alt="جولة في أهرامات الجيزة" class="img-fluid rounded mt-3">
+                <a href="#contact" class="btn btn-primary mt-3" aria-label="احجز الآن لجولة القاهرة"
+                   data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="cairo_full_day_tour">جولة خاصة ليوم كامل إلى القاهرة من الغردقة</h5>
+                    <p data-key="cairo_tour_description">انطلق في رحلة مميزة ليوم كامل من الغردقة إلى القاهرة بسيارة
+                        خاصة
+                        مكيفة، حيث ستكتشف روائع العاصمة المصرية مع مرشد سياحي متخصص في علم المصريات.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="overview">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="cairo_highlight_1">استكشاف أهم معالم القاهرة في يوم واحد</li>
+                            <li data-key="cairo_highlight_2">زيارة أهرامات الجيزة وأبو الهول</li>
+                            <li data-key="cairo_highlight_3">استكشاف المتحف المصري الشهير</li>
+                            <li data-key="cairo_highlight_4">جولة في القاهرة القديمة عند الطلب</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="includes">يشمل:</h5>
+                        <ul>
+                            <li data-key="hotel_pickup">خدمة التوصيل من وإلى الفندق</li>
+                            <li data-key="private_air_conditioned_transport">جميع التنقلات بسيارة مكيفة خاصة</li>
+                            <li data-key="professional_guide">مرشد سياحي خاص محترف</li>
+                            <li data-key="entrance_fees">رسوم دخول أهرامات الجيزة والمتحف المصري</li>
+                            <li data-key="local_lunch">غداء في مطعم محلي</li>
+                            <li data-key="taxes_service_fees">الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="additional-info">
+                        <h5 data-key="additional_info">معلومات إضافية:</h5>
+                        <ul>
+                            <li data-key="children_0_5">الأطفال من ٠ إلى ٥ سنوات: مجانًا</li>
+                            <li data-key="children_6_11">الأطفال من ٥ إلى ١١ سنة: خصم ٥٠٪</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m9.jpg" alt="جولة في معبد الكرنك والأقصر" class="img-fluid rounded mt-3">
+                <a href="#contact" class="btn btn-primary mt-3" aria-label="احجز الآن لرحلة الأقصر" data-key="book_now">احجز
+                    الآن</a>
+                <div>
+                    <h5 data-key="luxor_two_day_trip">رحلة خاصة ليومين إلى الأقصر من الغردقة</h5>
+                    <p data-key="luxor_trip_description">استمتع بإقامة فاخرة لليلة واحدة في مدينة الأقصر، واكتشف أروع
+                        المعابد والمقابر الملكية في صعيد مصر مع مرشد سياحي محترف سيأخذك في رحلة عبر آلاف السنين من
+                        التاريخ
+                        الفرعوني العريق.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="itinerary">مسار الرحلة:</h5>
+                        <ul>
+                            <li data-key="day_1_luxor">اليوم الأول: زيارة معبد الكرنك، معبد الأقصر</li>
+                            <li data-key="day_2_luxor">اليوم الثاني: استكشاف وادي الملوك، معبد حتشبسوت</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="includes">تشمل الرحلة:</h5>
+                        <ul>
+                            <li data-key="hotel_pickup_luxor">التوصيل من وإلى الفندق في الغردقة</li>
+                            <li data-key="luxury_transport">جميع التنقلات بسيارة مكيفة فاخرة</li>
+                            <li data-key="professional_guide_luxor">مرشد سياحي خاص محترف</li>
+                            <li data-key="entrance_tickets_luxor">تذاكر دخول لجميع المواقع المذكورة</li>
+                            <li data-key="luxury_lunch">غداء فاخر في مطعم محلي (اليومين)</li>
+                            <li data-key="hotel_stay">إقامة ليلة واحدة في فندق 5 نجوم مع إفطار</li>
+                        </ul>
+                    </div>
+                    <div class="additional-info">
+                        <h5 data-key="additional_info">معلومات إضافية:</h5>
+                        <ul>
+                            <li data-key="children_0_5_luxor">الأطفال من 0 إلى 5 سنوات: مجانًا</li>
+                            <li data-key="children_6_11_luxor">الأطفال من 6 إلى 11 سنة: خصم 50%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m10.jpg" alt="جزيرة أورانج باي" class="img-fluid rounded mt-3">
+                <a href="#contact" class="btn btn-primary mt-3" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="orange_bay_trip">رحلة غطس في جزيرة أورانج باي من الغردقة</h5>
+                    <p data-key="orange_bay_description">اقضِ يومًا رائعًا وسط الطبيعة الساحرة في جزيرة أورانج باي،
+                        واحدة من
+                        أجمل جزر البحر الأحمر، حيث الاسترخاء تحت أشعة الشمس والمياه الفيروزية النقية وتجربة الغطس
+                        المثيرة
+                        وسط الشعاب المرجانية الملونة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="orange_bay_adventure">مغامرة ليوم كامل إلى جزيرة أورانج باي</li>
+                            <li data-key="snorkeling_spots">غطس في موقعين مختلفين من أجمل الشعاب المرجانية</li>
+                            <li data-key="relax_on_beach">استرخاء على شاطئ الجزيرة الرملي الأبيض الناعم</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_dropoff_orange_bay">الاستقبال والتوصيل من الفندق</li>
+                            <li data-key="transport_by_boat">جميع التنقلات بالقارب وسيارات مكيفة</li>
+                            <li data-key="professional_guide_orange_bay">مرشد سياحي محترف</li>
+                            <li data-key="lunch_on_boat">غداء ومشروبات على متن القارب</li>
+                            <li data-key="island_entry_fee">رسوم دخول الجزيرة</li>
+                            <li data-key="snorkeling_equipment">معدات الغطس</li>
+                            <li data-key="taxes_service_fees_orange_bay">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="additional-info">
+                        <h5 data-key="additional_info">أنشطة إضافية:</h5>
+                        <ul>
+                            <li data-key="relax_on_beach_additional">الاسترخاء على شاطئ الجزيرة</li>
+                            <li data-key="banana_boat_rides">ركوب قارب الموزة والأريكة المائية</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">ما يجب إحضاره:</h5>
+                        <ul>
+                            <li data-key="sunglasses">نظارات شمسية</li>
+                            <li data-key="sunscreen">واقي شمس</li>
+                            <li data-key="towel">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m111.jpg" alt="جزيرة بارادايس" class="img-fluid rounded mt-3">
+                <a href="#contact" class="btn btn-primary mt-3" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="paradise_island_trip">جزيرة بارادايس ومغامرة الغطس من الغردقة</h5>
+                    <p data-key="paradise_island_description">اهرب من صخب الحياة اليومية وانغمس في جمال جزيرة بارادايس،
+                        الواقعة ضمن محمية الجفتون الوطنية الخلابة. تُعد هذه الجزيرة الخلابة المكان المثالي للاسترخاء
+                        والراحة
+                        تحت سماء مصر المشمسة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="paradise_highlight_1">استمتع بجنة بمياهها الصافية ورمالها البيضاء الناعمة</li>
+                            <li data-key="paradise_highlight_2">انغمس في عالم ما تحت الماء النابض بالحياة</li>
+                            <li data-key="paradise_highlight_3">استمتع بأنشطة شاطئية ممتعة مثل الكرة الطائرة</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service">خدمة التوصيل من وإلى الفندق</li>
+                            <li data-key="air_conditioned_transport">النقل بسيارة مكيفة</li>
+                            <li data-key="professional_guide">مرشد سياحي محترف</li>
+                            <li data-key="lunch_on_boat">غداء ومشروبات على متن القارب</li>
+                            <li data-key="entry_fees">رسوم الدخول</li>
+                            <li data-key="snorkeling_equipment">معدات الغطس</li>
+                            <li data-key="water_sports">أنشطة الرياضات المائية (قارب الموزة، أريكة مائية)</li>
+                            <li data-key="taxes_service_fees">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="additional-info">
+                        <h5 data-key="additional_info">معلومات إضافية:</h5>
+                        <ul>
+                            <li data-key="relax_on_beach">الاسترخاء على شاطئ الجزيرة</li>
+                            <li data-key="photoshoot_area">التقط صورًا خلابة في منطقة التصوير الخلابة</li>
+                        </ul>
+                    </div>
+
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses">نظارات شمسية</li>
+                            <li data-key="sunscreen">واقي شمس</li>
+                            <li data-key="towel">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Dolphin Swimming and Snorkeling Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m12.jpg" alt="السباحة مع الدلافين" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="dolphin_swimming">السباحة مع الدلافين والغطس في الغردقة</h5>
+                    <p data-key="dolphin_swimming_description">انطلق في مغامرة بحرية لا تُنسى إلى بيت الدلافين، حيث
+                        ستتاح لك فرصة السباحة مع الدلافين واكتشاف الحياة البحرية المذهلة في البحر الأحمر أثناء الغطس
+                        ومراقبة سلوك الدلافين الطبيعي.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="dolphin_highlight_1">استمتع بمشاهدة الدلافين في بيئتها الطبيعية</li>
+                            <li data-key="dolphin_highlight_2">استكشاف الشعاب المرجانية النابضة بالحياة</li>
+                            <li data-key="dolphin_highlight_3">الغوص في مياه البحر الأحمر الصافية</li>
+                        </ul>
+                    </div>
+
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="hotel_pickup_dolphin">الاستقبال والتوصيل من الفندق</li>
+                            <li data-key="air_conditioned_transport_dolphin">النقل بسيارة مكيفة</li>
+                            <li data-key="guide_dolphin">مرشد سياحي طوال الرحلة</li>
+                            <li data-key="lunch_on_boat_dolphin">الغداء والمشروبات على متن القارب</li>
+                            <li data-key="banana_boat">ركوب قارب الموزة والأريكة المائية</li>
+                            <li data-key="snorkeling_equipment_dolphin">معدات الغطس</li>
+                            <li data-key="taxes_service_fees_dolphin">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+
+                    <div class="additional-info">
+                        <h5 data-key="additional_info">معلومات إضافية:</h5>
+                        <ul>
+                            <li data-key="photos_with_dolphins">التقاط صور مع الدلافين</li>
+                            <li data-key="relax_on_boat">استرخاء على القارب أثناء الرحلة</li>
+                        </ul>
+                    </div>
+
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_dolphin">نظارات شمسية</li>
+                            <li data-key="sunscreen_dolphin">واقي شمس</li>
+                            <li data-key="towel_dolphin">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Quad Bike Evening Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m14.jpg" alt="جولة الدراجات الرباعية" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="quad_bike_evening_tour">جولة مسائية على الدراجات الرباعية في الغردقة</h5>
+                    <p data-key="quad_bike_evening_description">استمتع بجولة مسائية شيقة على الدراجات الرباعية من
+                        الغردقة،
+                        انطلق في رحلة عبر الصحراء واستمتع بغروب الشمس في هذه المغامرة الشيقة التي تستغرق ثلاث ساعات.</p>
+
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="highlight_desert_exploration">استكشاف صحراء الغردقة على متن دراجة رباعية</li>
+                            <li data-key="highlight_bedouin_village">زيارة قرية بدوية والتعرف على ثقافة البدو</li>
+                            <li data-key="highlight_camel_riding">تجربة ركوب الجمال والاستمتاع بالشاي البدوي</li>
+                        </ul>
+                    </div>
+
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_dropoff">الاستقبال والتوصيل من الفندق</li>
+                            <li data-key="english_guide">مرشد سياحي يتحدث الإنجليزية</li>
+                            <li data-key="quad_bike_experience">تجربة ركوب الدراجات الرباعية</li>
+                            <li data-key="helmet">خوذة</li>
+                            <li data-key="camel_riding">ركوب الجمال</li>
+                            <li data-key="bedouin_tea">شاي بدوي وشيشة</li>
+                        </ul>
+                    </div>
+
+                    <div class="additional-info">
+                        <h5 data-key="additional_info">معلومات إضافية:</h5>
+                        <ul>
+                            <li data-key="sunset_experience">استمتع بغروب الشمس الساحر في الصحراء</li>
+                            <li data-key="unique_experience">تجربة فريدة ومليئة بالمغامرات</li>
+                        </ul>
+                    </div>
+
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses">نظارة شمسية</li>
+                            <li data-key="scarf">وشاح</li>
+                            <li data-key="comfortable_shoes">أحذية مريحة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <!-- Dolphin Swimming and Snorkeling Tour -->
+            <div class="col-md-6 mb-4" data-aos="fade-right">
+                <div class="service-card">
+                    <img src="photo/m12.jpg" alt="السباحة مع الدلافين" class="img-fluid rounded">
+                    <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                    <div>
+                        <h5 data-key="dolphin_swimming">السباحة مع الدلافين والغطس في الغردقة</h5>
+                        <p data-key="dolphin_swimming_description">انطلق في مغامرة بحرية لا تُنسى إلى بيت الدلافين، حيث
+                            ستتاح لك فرصة السباحة مع الدلافين واكتشاف الحياة البحرية المذهلة في البحر الأحمر أثناء الغطس
+                            ومراقبة سلوك الدلافين الطبيعي.</p>
+
+                        <div class="tour-highlights">
+                            <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                            <ul>
+                                <li data-key="dolphin_highlight_1">استمتع بمشاهدة الدلافين في بيئتها الطبيعية</li>
+                                <li data-key="dolphin_highlight_2">استكشاف الشعاب المرجانية النابضة بالحياة</li>
+                                <li data-key="dolphin_highlight_3">الغوص في مياه البحر الأحمر الصافية</li>
+                            </ul>
+                        </div>
+
+                        <div class="included-section">
+                            <h5 data-key="included">يشمل:</h5>
+                            <ul>
+                                <li data-key="hotel_pickup_dolphin">الاستقبال والتوصيل من الفندق</li>
+                                <li data-key="air_conditioned_transport_dolphin">النقل بسيارة مكيفة</li>
+                                <li data-key="guide_dolphin">مرشد سياحي طوال الرحلة</li>
+                                <li data-key="lunch_on_boat_dolphin">الغداء والمشروبات على متن القارب</li>
+                                <li data-key="banana_boat">ركوب قارب الموزة والأريكة المائية</li>
+                                <li data-key="snorkeling_equipment_dolphin">معدات الغطس</li>
+                                <li data-key="taxes_service_fees_dolphin">جميع الضرائب ورسوم الخدمة</li>
+                            </ul>
+                        </div>
+
+                        <div class="additional-info">
+                            <h5 data-key="additional_info">معلومات إضافية:</h5>
+                            <ul>
+                                <li data-key="photos_with_dolphins">التقاط صور مع الدلافين</li>
+                                <li data-key="relax_on_boat">استرخاء على القارب أثناء الرحلة</li>
+                            </ul>
+                        </div>
+
+                        <div class="what-to-bring">
+                            <h5 data-key="what_to_bring_dolphin">يرجى إحضار:</h5>
+                            <ul>
+                                <li data-key="sunglasses_dolphin">نظارات شمسية</li>
+                                <li data-key="sunscreen_dolphin">واقي شمس</li>
+                                <li data-key="towel_dolphin">منشفة</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quad Bike Evening Tour -->
+            <div class="col-md-6 mb-4" data-aos="fade-right">
+                <div class="service-card">
+
+                    <img src="photo/m14.jpg" alt="جولة الدراجات الرباعية" class="img-fluid rounded">
+                    <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                    <div>
+                        <h5 data-key="quad_bike_evening_tour">جولة مسائية على الدراجات الرباعية في الغردقة</h5>
+                        <p data-key="quad_bike_evening_description">استمتع بجولة مسائية شيقة على الدراجات الرباعية من
+                            الغردقة،
+                            انطلق في رحلة عبر الصحراء واستمتع بغروب الشمس في هذه المغامرة الشيقة التي تستغرق ثلاث
+                            ساعات.</p>
+
+                        <div class="tour-highlights">
+                            <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                            <ul>
+                                <li data-key="highlight_desert_exploration">استكشاف صحراء الغردقة على متن دراجة رباعية
+                                </li>
+                                <li data-key="highlight_bedouin_village">زيارة قرية بدوية والتعرف على ثقافة البدو</li>
+                                <li data-key="highlight_camel_riding">تجربة ركوب الجمال والاستمتاع بالشاي البدوي</li>
+                            </ul>
+                        </div>
+
+                        <div class="included-section">
+                            <h5 data-key="included">يشمل:</h5>
+                            <ul>
+                                <li data-key="pickup_dropoff">الاستقبال والتوصيل من الفندق</li>
+                                <li data-key="english_guide">مرشد سياحي يتحدث الإنجليزية</li>
+                                <li data-key="quad_bike_experience">تجربة ركوب الدراجات الرباعية</li>
+                                <li data-key="helmet">خوذة</li>
+                                <li data-key="camel_riding">ركوب الجمال</li>
+                                <li data-key="bedouin_tea">شاي بدوي وشيشة</li>
+                            </ul>
+                        </div>
+
+                        <div class="additional-info">
+                            <h5 data-key="additional_info">معلومات إضافية:</h5>
+                            <ul>
+                                <li data-key="sunset_experience">استمتع بغروب الشمس الساحر في الصحراء</li>
+                                <li data-key="unique_experience">تجربة فريدة ومليئة بالمغامرات</li>
+                            </ul>
+                        </div>
+
+                        <div class="what-to-bring">
+                            <h5 data-key="what_to_bring_quad">يرجى إحضار:</h5>
+                            <ul>
+                                <li data-key="sunglasses_quad">نظارة شمسية</li>
+                                <li data-key="scarf_quad">وشاح</li>
+                                <li data-key="comfortable_shoes_quad">أحذية مريحة</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quad Bike Morning Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m17.jpg" alt="جولة الدراجات الرباعية الصباحية" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="quad_bike_morning_tour">جولة صباحية على الدراجات الرباعية في الغردقة</h5>
+                    <p data-key="quad_bike_morning_description">استمتع بجولة صباحية مثيرة على الدراجات الرباعية في
+                        الغردقة،
+                        حيث يمكنك استكشاف الصحراء في هذه المغامرة التي تستغرق ثلاث ساعات.</p>
+
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="highlight_desert_exploration">استكشاف صحراء الغردقة على متن دراجة رباعية</li>
+                            <li data-key="highlight_bedouin_village_morning">زيارة قرية بدوية والاستمتاع بالشاي البدوي
+                            </li>
+                            <li data-key="highlight_camel_riding_morning">تجربة ركوب الجمال والتدخين بالشيشة</li>
+                        </ul>
+                    </div>
+
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_dropoff_morning">الاستقبال والتوصيل من الفندق</li>
+                            <li data-key="morning_guide">مرشد سياحي</li>
+                            <li data-key="quad_bike_experience_morning">تجربة ركوب الدراجات الرباعية</li>
+                            <li data-key="helmet_morning">خوذة</li>
+                            <li data-key="camel_riding_morning">ركوب الجمال</li>
+                            <li data-key="bedouin_tea_morning">شاي بدوي وشيشة</li>
+                        </ul>
+                    </div>
+
+                    <div class="additional-info">
+                        <h5 data-key="additional_info">معلومات إضافية:</h5>
+                        <ul>
+                            <li data-key="unique_experience_morning">استمتع بتجربة فريدة ومليئة بالمغامرات</li>
+                            <li data-key="sunset_experience_morning">استمتع بغروب الشمس الساحر في الصحراء</li>
+                        </ul>
+                    </div>
+
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_morning">نظارات شمسية</li>
+                            <li data-key="scarf_morning">وشاح</li>
+                            <li data-key="comfortable_shoes_morning">أحذية مريحة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Safari Adventure -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m19.jpg" alt="رحلة سفاري" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="safari_adventure">رحلة سفاري رائعة من الغردقة</h5>
+                    <p data-key="safari_adventure_description">انطلق في مغامرة شيقة مع رحلة سفاري لنصف يوم بسيارة جيب
+                        ودراجة
+                        رباعية إلى منتزه صحارى في صحراء الغردقة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="highlight_bedouin_life">استكشاف الحياة البدوية في منتزه صحارى</li>
+                            <li data-key="quad_bike_ride">ركوب دراجة رباعية لمدة ٤٥ دقيقة</li>
+                            <li data-key="bedouin_dinner">استمتع بعشاء بدوي وعرض ثقافي رائع</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service">النقل من وإلى الفندق</li>
+                            <li data-key="tour_guide">مرشد سياحي</li>
+                            <li data-key="quad_bike_experience">ركوب الدراجات الرباعية</li>
+                            <li data-key="buggy_ride">ركوب عربات الباجي</li>
+                            <li data-key="helmet">خوذة</li>
+                            <li data-key="camel_riding">ركوب الجمال</li>
+                            <li data-key="bedouin_tea">شاي بدوي وشيشة</li>
+                            <li data-key="oriental_show">عرض شرقي رائع مع رقص شرقي وأداء "فقير"</li>
+                            <li data-key="barbecue">مشويات</li>
+                        </ul>
+                    </div>
+                    <div class="additional-info">
+                        <h5 data-key="additional_info">معلومات إضافية:</h5>
+                        <ul>
+                            <li data-key="unique_experience">تجربة فريدة في قلب الصحراء</li>
+                            <li data-key="sunset_experience">استمتع بغروب الشمس الساحر</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses">نظارة شمسية</li>
+                            <li data-key="scarf">وشاح</li>
+                            <li data-key="comfortable_shoes">أحذية مريحة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Star Gazing Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m21.jpg" alt="رحلة مشاهدة النجوم" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="star_gazing_tour">رحلة مشاهدة النجوم من الغردقة</h5>
+                    <p data-key="star_gazing_description">انغمس في جمال الصحراء المصرية وثقافتها العريقة بحجز هذه الجولة
+                        لمشاهدة النجوم. انطلق في مغامرة سفاري شيقة، واستمتع بغروب الشمس، واركب عربة تجرها الخيول، وجرّب
+                        ركوب
+                        الجمال، وتناول الشاي التقليدي، ثم استمتع بمراقبة النجوم مع مرشد فلكي محترف.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="explore_desert">استكشاف الصحراء المصرية بسيارة جيب</li>
+                            <li data-key="camel_riding_star">ركوب الجمال وعربة تجرها الخيول</li>
+                            <li data-key="star_observation">مراقبة النجوم من خلال تلسكوب محترف</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_star">النقل من وإلى الفندق بسيارة جيب</li>
+                            <li data-key="star_observation_telescopes">مراقبة النجوم من خلال تلسكوب</li>
+                            <li data-key="professional_guide_star">مرشد سياحي محترف</li>
+                            <li data-key="camel_riding_star">ركوب الجمال وعربة الخيل</li>
+                            <li data-key="delicious_dinner">عشاء شهي في أجواء رائعة</li>
+                        </ul>
+                    </div>
+                    <div class="additional-info">
+                        <h5 data-key="additional_info">معلومات إضافية:</h5>
+                        <ul>
+                            <li data-key="unique_star_experience">تجربة فريدة لمشاهدة النجوم في الصحراء</li>
+                            <li data-key="traditional_bedouin_atmosphere">استمتع بالأجواء البدوية التقليدية</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_star">نظارات شمسية</li>
+                            <li data-key="comfortable_shoes_star">أحذية مريحة</li>
+                            <li data-key="hat">قبعة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Morning Safari Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m22.jpg" alt="رحلة سفاري صباحية" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="morning_safari_tour">رحلة سفاري صباحية رائعة من الغردقة</h5>
+                    <p data-key="morning_safari_description">انطلق في مغامرة شيقة مع رحلة سفاري صباحية رائعة، تجمع بين
+                        ركوب
+                        سيارات الجيب والدراجات الرباعية عبر صحراء الغردقة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="bedouin_life_exploration">استكشاف حياة البدو وعجائب الصحراء</li>
+                            <li data-key="quad_bike_ride_morning">ركوب الدراجات الرباعية لمدة 45 دقيقة</li>
+                            <li data-key="camel_riding_morning">ركوب الجمال وتجربة ثقافة البدو</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_morning">النقل من وإلى الفندق</li>
+                            <li data-key="tour_guide_morning">خدمة مرشد سياحي</li>
+                            <li data-key="quad_bike_experience_morning">ركوب الدراجات الرباعية</li>
+                            <li data-key="buggy_ride_morning">ركوب سيارة باجي</li>
+                            <li data-key="helmet_morning">خوذة</li>
+                            <li data-key="camel_riding_morning">ركوب الجمال</li>
+                            <li data-key="bedouin_tea_morning">شاي بدوي</li>
+                        </ul>
+                    </div>
+                    <div class="additional-info">
+                        <h5 data-key="additional_info">معلومات إضافية:</h5>
+                        <ul>
+                            <li data-key="unique_experience_morning">تجربة فريدة في قلب الصحراء</li>
+                            <li data-key="beautiful_scenery">استمتع بالمناظر الطبيعية الخلابة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_morning">نظارات شمسية</li>
+                            <li data-key="scarf_morning">وشاح</li>
+                            <li data-key="comfortable_shoes_morning">أحذية مريحة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Evening Dune Buggy Safari -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m25.jpg" alt="جولة سفاري مسائية" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="evening_dune_buggy_safari">جولة سفاري مسائية بعربات الكثبان الرملية في الغردقة</h5>
+                    <p data-key="evening_dune_buggy_description">استمتع بجولة سفاري مسائية مثيرة بعربات الكثبان الرملية
+                        في
+                        الغردقة، واستكشف الصحراء في هذه المغامرة التي تستغرق 3 ساعات.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="dune_buggy_exploration">استكشاف صحراء الغردقة على عربات الكثبان الرملية</li>
+                            <li data-key="bedouin_tea_experience">تجربة الشاي البدوي وركوب الجمال</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_dune_buggy">النقل من وإلى الفندق</li>
+                            <li data-key="guide_dune_buggy">مساعدة مرشد</li>
+                            <li data-key="dune_buggy_ride">ركوب عربات الكثبان الرملية</li>
+                            <li data-key="helmet_dune_buggy">خوذة</li>
+                            <li data-key="camel_riding_dune_buggy">ركوب الجمال</li>
+                            <li data-key="bedouin_tea_dune_buggy">شاي بدوي وشيشة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_dune_buggy">نظارات شمسية</li>
+                            <li data-key="scarf_dune_buggy">وشاح</li>
+                            <li data-key="comfortable_shoes_dune_buggy">أحذية مريحة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Morning Dune Buggy Safari -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m26.jpg" alt="جولة سفاري صباحية في الغردقة" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="morning_dune_buggy_safari">جولة سفاري صباحية على متن سيارة ديون باجي في الغردقة</h5>
+                    <p data-key="morning_dune_buggy_description">استمتع بجولة سفاري صباحية مثيرة على متن سيارة ديون باجي
+                        في
+                        الغردقة، واستكشف الصحراء في هذه المغامرة التي تستغرق 3 ساعات.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="dune_buggy_exploration_morning">استكشاف صحراء الغردقة على متن سيارة ديون
+                                باجي
+                            </li>
+                            <li data-key="bedouin_tea_experience_morning">تجربة الشاي البدوي وركوب الجمال</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_morning_dune_buggy">النقل من وإلى الفندق</li>
+                            <li data-key="guide_morning_dune_buggy">خدمة مرشد</li>
+                            <li data-key="dune_buggy_ride_morning">ركوب عربة الكثبان الرملية</li>
+                            <li data-key="helmet_morning_dune_buggy">خوذة</li>
+                            <li data-key="camel_riding_morning_dune_buggy">ركوب جمل</li>
+                            <li data-key="bedouin_tea_morning_dune_buggy">شاي بدوي وشيشة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_morning_dune_buggy">نظارة شمسية</li>
+                            <li data-key="scarf_morning_dune_buggy">وشاح</li>
+                            <li data-key="comfortable_shoes_morning_dune_buggy">أحذية مريحة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cairo Full Day Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m27.jpg" alt="جولة إلى القاهرة" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="cairo_full_day_tour">جولة ليوم كامل إلى القاهرة من الغردقة مع مجموعة</h5>
+                    <p data-key="cairo_full_day_description">اكتشف القاهرة في جولة ليوم كامل في سيارة مريحة ومكيفة،
+                        واستمتع
+                        بأهرامات الجيزة والمتحف المصري.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="highlight_visit_pyramids">زيارة أهرامات الجيزة والمتحف المصري</li>
+                            <li data-key="highlight_explore_history">استكشاف التاريخ المصري القديم</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="hotel_pickup_cairo">خدمة نقل من وإلى الفندق</li>
+                            <li data-key="specialized_guide">مرشد سياحي متخصص</li>
+                            <li data-key="entrance_fees_cairo">رسوم دخول أهرامات الجيزة والمتحف المصري</li>
+                            <li data-key="local_lunch_cairo">غداء في مطعم محلي</li>
+                            <li data-key="taxes_service_fees_cairo">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_cairo">نظارات شمسية</li>
+                            <li data-key="scarf_cairo">وشاح</li>
+                            <li data-key="comfortable_shoes_cairo">أحذية مريحة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Luxor Private Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m29.jpg" alt="جولة إلى الأقصر" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="luxor_private_tour">جولة خاصة ليوم كامل إلى الأقصر من الغردقة</h5>
+                    <p data-key="luxor_private_description">اكتشف آثار طيبة القديمة برفقة مرشد خبير في علم المصريات في
+                        هذه
+                        الجولة الخاصة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="highlight_valley_of_kings">زيارة وادي الملوك ومعبد الكرنك</li>
+                            <li data-key="highlight_queen_hatshepsut">استكشاف معبد الملكة حتشبسوت</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service">خدمة التوصيل من وإلى الفندق</li>
+                            <li data-key="specialized_guide">مرشد سياحي متخصص</li>
+                            <li data-key="local_lunch">غداء في مطعم محلي</li>
+                            <li data-key="taxes_service_fees">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses">نظارات شمسية</li>
+                            <li data-key="comfortable_shoes">أحذية مريحة</li>
+                            <li data-key="hat">قبعة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Luxor Group Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k15.webp" alt="جولة الأقصر" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="luxor_group_tour">جولة الأقصر ليوم كامل من الغردقة (مع مجموعة)</h5>
+                    <p data-key="luxor_group_description">اكتشفوا آثار طيبة القديمة الآسرة، برفقة مرشد خبير في علم
+                        المصريات.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="highlight_valley_of_kings_group">زيارة وادي الملوك ومعبد الكرنك</li>
+                            <li data-key="highlight_queen_hatshepsut_group">استكشاف معبد الملكة حتشبسوت</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="round_trip_transport">مواصلات ذهابًا وإيابًا من فندقكم</li>
+                            <li data-key="expert_guide">دليل سياحي خبير في علم المصريات</li>
+                            <li data-key="local_lunch_group">غداء في مطعم محلي</li>
+                            <li data-key="taxes_service_fees_group">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_group">نظارات شمسية</li>
+                            <li data-key="comfortable_shoes_group">أحذية مريحة</li>
+                            <li data-key="hat_group">قبعة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mahmaya Island Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k5.webp" alt="جزيرة المحمية" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="mahmya_island_trip">رحلة ليوم واحد إلى جزيرة المحمية من الغردقة</h5>
+                    <p data-key="mahmya_island_description">انطلق في رحلة إلى جنة خفية بزيارة جزيرة المحمية، ملاذ هادئ
+                        قبالة
+                        ساحل الغردقة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="sunbathing_snorkeling">استمتع بحمامات الشمس والغطس بين الشعاب المرجانية</li>
+                            <li data-key="exploration_activity">استكشاف الجزيرة والاستمتاع بالأنشطة المائية</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_mahmya">خدمة التوصيل من وإلى الفندق</li>
+                            <li data-key="buffet_lunch">وجبة غداء على طراز البوفيه</li>
+                            <li data-key="snorkeling_equipment_mahmya">معدات غطس</li>
+                            <li data-key="island_entry_fees">رسوم دخول الجزيرة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_mahmya">نظارات شمسية</li>
+                            <li data-key="sunscreen">واقي شمس</li>
+                            <li data-key="towel_mahmya">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submarine Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k8.webp" alt="رحلة غواصة" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="submarine_trip">رحلة غواصة سي سكوب من الغردقة</h5>
+                    <p data-key="submarine_trip_description">اكتشف عجائب البحر الأحمر تحت الماء في هذه الرحلة البحرية
+                        الرائعة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="marine_life_view">استمتع بمشاهدة الحياة البحرية من شبه غواصة</li>
+                            <li data-key="underwater_experience">تجربة استثنائية تحت الماء مع نوافذ بانورامية</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_submarine">خدمة التوصيل من وإلى الفندق</li>
+                            <li data-key="drinks">مشروبات</li>
+                            <li data-key="snorkeling_equipment_submarine">معدات الغطس</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_submarine">نظارات شمسية</li>
+                            <li data-key="sunscreen_submarine">واقي شمس</li>
+                            <li data-key="towel_submarine">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Utopia Island Diving -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k16.jpeg" alt="جزيرة يوتوبيا" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="utopia_island_diving">رحلة غطس إلى جزيرة يوتوبيا من الغردقة</h5>
+                    <p data-key="utopia_island_description">انطلق في رحلة إلى جزيرة يوتوبيا واستكشف عالم البحر الأحمر
+                        المائي
+                        الغني بالألوان.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="vibrant_snorkeling">غطس بين الشعاب المرجانية النابضة بالحياة</li>
+                            <li data-key="delicious_buffet">استمتع ببوفيه غداء شهي</li>
+                            <li data-key="glass_bottom_boat_tour">جولة حول جزيرة يوتوبيا بقارب ذو قاع زجاجي</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_utopia">التوصيل من وإلى الفندق</li>
+                            <li data-key="tour_guide_utopia">مرشد سياحي</li>
+                            <li data-key="snorkeling_equipment_utopia">معدات غطس</li>
+                            <li data-key="taxes_service_fees_utopia">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_utopia">نظارات شمسية</li>
+                            <li data-key="sunscreen_utopia">واقي شمس</li>
+                            <li data-key="towel_utopia">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Aden Island Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k11.jpeg" alt="جزيرة عدن" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="aden_island_trip">رحلة جزيرة عدن من الغردقة</h5>
+                    <p data-key="aden_island_description">جزيرة عدن شاطئ صغير يقع في جزيرة الجفتون، الغردقة، البحر
+                        الأحمر.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="white_sandy_beaches">استمتع بشواطئ رملية بيضاء ومياه زرقاء صافية</li>
+                            <li data-key="snorkeling_colored_fish">غطس بين الأسماك الملونة</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_aden">النقل من وإلى الفندق</li>
+                            <li data-key="buffet_lunch_aden">غداء على طراز البوفيه</li>
+                            <li data-key="snorkeling_equipment_aden">معدات غطس</li>
+                            <li data-key="taxes_service_fees_aden">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_aden">نظارات شمسية</li>
+                            <li data-key="sunscreen_aden">واقي شمس</li>
+                            <li data-key="towel_aden">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Sharm El Naga Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k33.jpg" alt="شرم النجا" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="sharm_el_naga_trip">رحلة غطس شرم النجا من الغردقة</h5>
+                    <p data-key="sharm_el_naga_description">استمتع بيوم كامل من الغطس في خليج شرم النجا.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="snorkeling_beach_fun">غطس الشعاب المرجانية واللعب على الشاطئ</li>
+                            <li data-key="lunch_on_beach">غداء ومشروبات في مطعم على شاطئ البحر</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_sharm">النقل من وإلى الفندق</li>
+                            <li data-key="tour_guide_sharm">مرشد سياحي</li>
+                            <li data-key="snorkeling_equipment_sharm">معدات غطس</li>
+                            <li data-key="taxes_service_fees_sharm">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_sharm">نظارات شمسية</li>
+                            <li data-key="sunscreen_sharm">واقي شمس</li>
+                            <li data-key="towel_sharm">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Abu Dabbab Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k32.jpeg" alt="خليج أبو دباب" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary">احجز الآن</a>
+                <div>
+                    <h5 data-key="abu_dabbab_trip">رحلة غطس في خليج أبو دباب من الغردقة</h5>
+                    <p data-key="abu_dabbab_description">استمتع بتجربة غطس رائعة في خليج أبو دباب.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="explore_corals">استكشاف الشعاب المرجانية والسلاحف البحرية</li>
+                            <li data-key="delicious_lunch">غداء شهي خلال يومك</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_abu_dabbab">النقل من وإلى الفندق</li>
+                            <li data-key="tour_guide_abu_dabbab">مرشد سياحي</li>
+                            <li data-key="snorkeling_equipment_abu_dabbab">معدات غطس</li>
+                            <li data-key="taxes_service_fees_abu_dabbab">جميع الضرائب</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_abu_dabbab">نظارات شمسية</li>
+                            <li data-key="sunscreen_abu_dabbab">واقي شمس</li>
+                            <li data-key="towel_abu_dabbab">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horse Riding Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k31.jpeg" alt="ركوب الخيل" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="horse_riding">ركوب الخيل في الغردقة</h5>
+                    <p data-key="horse_riding_description">استمتع بركوب الخيل على طول ساحل البحر الأحمر في مصر.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="highlight_nature">استمتع بركوب الخيل وسط المناظر الطبيعية الخلابة</li>
+                            <li data-key="highlight_sunset">تجربة غروب الشمس الساحر أثناء الركوب</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_horse">خدمة التوصيل من وإلى الفندق</li>
+                            <li data-key="horse_instructors">مدربو الخيول</li>
+                            <li data-key="helmet">خوذة للسلامة</li>
+                        </ul>
+                    </div>
+                    <div class="gallop-options">
+                        <h5 data-key="gallop_options">الجولات المتاحة:</h5>
+                        <ul>
+                            <li data-key="desert_trip">رحلة صحراوية (ساعة واحدة)</li>
+                            <li data-key="forest_trip">رحلة في الغابة (ساعة واحدة)</li>
+                            <li data-key="beach_trip_no_swim">رحلة شاطئية (ساعتان بدون سباحة)</li>
+                            <li data-key="beach_trip_with_swim">رحلة شاطئية (ساعتان ونصف مع سباحة)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Abydos and Dendera Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k30.webp" alt="أبيدوس ودندرة" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="abydos_dendera_trip">جولة خاصة ليوم واحد من الغردقة إلى أبيدوس ودندرة</h5>
+                    <p data-key="abydos_dendera_description">اكتشف المواقع الأثرية في أبيدوس ودندرة في جولة خاصة ليوم
+                        واحد
+                        من الغردقة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="pickup_service_abydos">استقبال مريح من فندقك بسيارة مكيفة</li>
+                            <li data-key="visit_abydos">زيارة معبد أبيدوس ونصب أوزيريون</li>
+                            <li data-key="explore_dendera">استكشاف معبد دندرة وجمال الزخارف الرومانية</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service">خدمة التوصيل من وإلى الفندق</li>
+                            <li data-key="private_guide">مرشد سياحي خاص</li>
+                            <li data-key="entrance_fees_abydos">رسوم الدخول لجميع المعالم</li>
+                            <li data-key="lunch_local">غداء في مطعم محلي</li>
+                            <li data-key="taxes_service_fees">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_abydos">نظارات شمسية</li>
+                            <li data-key="sunscreen_abydos">واقي شمس</li>
+                            <li data-key="towel_abydos">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hurghada City Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k29.jpeg" alt="جولة في الغردقة" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="hurghada_city_tour">جولة في مدينة الغردقة</h5>
+                    <p data-key="hurghada_city_description">أفضل طريقة لاكتشاف مدينة جديدة هي القيام بجولة في
+                        المدينة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="visit_highest_point">زيارة أعلى نقطة في المدينة لإطلالة بانورامية</li>
+                            <li data-key="visit_grand_mosque">زيارة المسجد الكبير والمارينا الجديدة</li>
+                            <li data-key="explore_old_fish_market">استكشاف سوق السمك القديم وسوق الفاكهة</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_hurghada">خدمة التوصيل من وإلى الفندق</li>
+                            <li data-key="professional_guide">مرشد سياحي محترف</li>
+                            <li data-key="taxes_service_fees_hurghada">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pyramids and Sphinx Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k28.jpeg" alt="الأهرامات" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="pyramids_sphinx_saqqara_trip">جولة خاصة ليوم واحد إلى الأهرامات وأبو الهول وسقارة من
+                        الغردقة</h5>
+                    <p data-key="pyramids_sphinx_description">ارجع بالزمن إلى ما يزيد عن 3000 عام بزيارة ممفيس، ومقبرة
+                        سقارة، وأهرامات الجيزة الشهيرة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="visit_giza_plateau">زيارة هضبة الجيزة وأهرامات خوفو وخفرع وميقرين</li>
+                            <li data-key="see_great_sphinx">شاهد أبو الهول العظيم</li>
+                            <li data-key="explore_memphis_saqara">استكشاف ممفيس وسقارة</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="private_transport">خدمة توصيل خاصة من وإلى الفندق</li>
+                            <li data-key="expert_guide">مرشد سياحي متخصص في علم المصريات</li>
+                            <li data-key="local_lunch">غداء في مطعم محلي</li>
+                            <li data-key="taxes_service_fees_pyramids">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cairo One Day Flight Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k26.webp" alt="رحلة إلى القاهرة" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="cairo_one_day_flight_trip">جولة ليوم واحد من الغردقة إلى القاهرة بالطائرة</h5>
+                    <p data-key="cairo_one_day_description">انطلق في رحلة جوية لمدة ساعة واحدة إلى القاهرة مع مرشد سياحي
+                        خبير.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="visit_giza_pyramids">زيارة أهرامات الجيزة وأبو الهول</li>
+                            <li data-key="explore_egyptian_museum">استكشاف المتحف المصري</li>
+                            <li data-key="shopping_khan_el_khalili">تسوق في سوق خان الخليلي</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_cairo">خدمات الاستقبال والتوصيل من الفندق</li>
+                            <li data-key="return_flight_tickets">تذاكر طيران ذهاب وعودة</li>
+                            <li data-key="private_guide_cairo">مرشد سياحي خاص في القاهرة</li>
+                            <li data-key="taxes_service_fees_cairo">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Cairo Two Day Tour -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k25.jpeg" alt="رحلة يومين إلى القاهرة" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="cairo_two_day_trip">رحلة خاصة ليومين من الغردقة إلى القاهرة</h5>
+                    <p data-key="cairo_two_day_description">انطلق في مغامرة سياحية فاخرة لمدة يومين لاستكشاف مدينة
+                        القاهرة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="visit_egyptian_museum">زيارة المتحف المصري والأهرامات العظيمة</li>
+                            <li data-key="explore_citadel_markets">استكشاف قلعة السلطان صلاح الدين والأسواق القديمة</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="one_night_stay">الإقامة ليلة واحدة في فندق مع إفطار</li>
+                            <li data-key="private_guide_two_days">مرشد سياحي خاص</li>
+                            <li data-key="lunch_local_two_days">غداء في مطعم محلي في كلا اليومين</li>
+                            <li data-key="taxes_service_fees_two_days">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Luxor Hot Air Balloon Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k23.jpg" alt="رحلة بالمنطاد في الأقصر" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="luxor_hot_air_balloon_trip">رحلة خاصة ليوم واحد إلى الأقصر من الغردقة بالمنطاد
+                        الهوائي</h5>
+                    <p data-key="luxor_hot_air_balloon_description">استمتع بيوم رائع في الأقصر مع رحلة بالون هوائي
+                        لمشاهدة
+                        شروق الشمس.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="hot_air_balloon_experience">رحلة بالون هوائي فوق المعالم التاريخية</li>
+                            <li data-key="visit_valley_of_kings">زيارة وادي الملوك ومعبد حتشبسوت</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="private_transport_luxor">خدمة النقل ذهابًا وإيابًا من الغردقة إلى الأقصر</li>
+                            <li data-key="private_guide_luxor">مرشد سياحي خاص</li>
+                            <li data-key="hot_air_balloon_ride">جولة بمنطاد الهواء الساخن</li>
+                            <li data-key="local_lunch_luxor">غداء في مطعم</li>
+                            <li data-key="taxes_service_luxor">جميع الضرائب والرسوم</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Makadi Water World Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="car/k21.jpg" alt="مكادي ووتر وورلد" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="makadi_water_world_trip">إقامة يومية في مكادي ووتر وورلد أكوا بارك من الغردقة</h5>
+                    <p data-key="makadi_water_world_description">انطلق في مغامرة لا تُنسى في مكادي ووتر وورلد أكوا
+                        بارك.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="water_slides">استمتع بأكثر من 50 منزلق مائي</li>
+                            <li data-key="activities_for_all_ages">أنشطة مائية لجميع الأعمار</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service">خدمة التوصيل من وإلى الفندق</li>
+                            <li data-key="snacks_drinks">وجبات خفيفة ومشروبات منعشة</li>
+                            <li data-key="park_entry_fee">رسوم دخول الحديقة</li>
+                            <li data-key="taxes_service_fees">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Marsa Mubarak Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m29.jpg" alt="مرسى مبارك" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="marsa_mubarak_trip">رحلة غطس من الغردقة إلى مرسى مبارك</h5>
+                    <p data-key="marsa_mubarak_description">استمتع بيوم كامل من الغطس في خليج مرسى مبارك.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="swim_with_manatees">غطس مع أبقار البحر والسلاحف</li>
+                            <li data-key="delicious_lunch">غداء شهي على متن القارب</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_marsa">الاستقبال والتوصيل من الفندق</li>
+                            <li data-key="snorkeling_equipment">معدات الغطس</li>
+                            <li data-key="taxes_service_fees_marsa">جميع الضرائب</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Giftun Island Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m28.jpg" alt="جزيرة الجفتون" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="giftun_island_trip">رحلة غطس في جزيرة الجفتون من الغردقة</h5>
+                    <p data-key="giftun_island_description">انطلق في يوم استكشافي رائع بزيارة جزيرة الجفتون، ومارس الغطس
+                        في
+                        مياه البحر الأحمر الصافية.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="snorkeling_experience">استمتع بالغوص في مياه البحر الأحمر الزاخرة بالحياة
+                                البحرية
+                            </li>
+                            <li data-key="delicious_lunch_boat">غداء شهي على متن القارب</li>
+                            <li data-key="water_sports_activities">أنشطة رياضات مائية مثل قارب الموزة</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_giftun">الاستقبال والتوصيل من الفندق</li>
+                            <li data-key="snorkeling_equipment_giftun">معدات غطس</li>
+                            <li data-key="taxes_service_fees_giftun">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                    <div class="what-to-bring">
+                        <h5 data-key="what_to_bring">يرجى إحضار:</h5>
+                        <ul>
+                            <li data-key="sunglasses_giftun">نظارة شمسية</li>
+                            <li data-key="sunscreen_giftun">واقي شمس</li>
+                            <li data-key="towel_giftun">منشفة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Parasailing Trip -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="service-card">
+                <img src="photo/m27.jpg" alt="طيران باراسيلينج" class="img-fluid rounded">
+                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                <div>
+                    <h5 data-key="parasailing_trip">استمتع بمغامرة طيران باراسيلينج استثنائية في الغردقة</h5>
+                    <p data-key="parasailing_description">تخيل أنك تحلق في السماء، مربوطًا بمظلة يسحبها قارب سريع، بينما
+                        تستمتع بمناظر خلابة.</p>
+                    <div class="tour-highlights">
+                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                        <ul>
+                            <li data-key="parasailing_duration">رحلة طيران باراسيلينج لمدة 10-15 دقيقة</li>
+                            <li data-key="panoramic_views">مناظر بانورامية للبحر الأحمر من ارتفاع 30-40 مترًا</li>
+                        </ul>
+                    </div>
+                    <div class="included-section">
+                        <h5 data-key="included">يشمل:</h5>
+                        <ul>
+                            <li data-key="pickup_service_parasailing">خدمة التوصيل من وإلى الفندق</li>
+                            <li data-key="speedboat_service">استخدام القارب السريع للتزلج الهوائي</li>
+                            <li data-key="life_jacket">سترة نجاة للسلامة</li>
+                            <li data-key="taxes_service_fees_parasailing">جميع الضرائب ورسوم الخدمة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sinbad Submarine Trip -->
+            <div class="col-md-6 mb-4" data-aos="fade-right">
+                <div class="service-card">
+                    <img src="gallery/g16.jpg" alt="غواصة سندباد" class="img-fluid rounded">
+                    <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                    <div>
+                        <h5 data-key="sinbad_submarine_trip">رحلة غواصة سندباد في الغردقة</h5>
+                        <p data-key="sinbad_submarine_description">استمتع بمغامرة جديدة على عمق 25 مترًا تحت سطح
+                            البحر!</p>
+                        <div class="tour-highlights">
+                            <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                            <ul>
+                                <li data-key="explore_coral">استكشاف 500 متر من الشعاب المرجانية</li>
+                                <li data-key="underwater_views">مناظر خلابة تحت الماء</li>
+                            </ul>
+                        </div>
+                        <div class="included-section">
+                            <h5 data-key="included">يشمل:</h5>
+                            <ul>
+                                <li data-key="pickup_service_sinbad">خدمة التوصيل من وإلى الفندق</li>
+                                <li data-key="drinks_sinbad">مشروبات غازية</li>
+                                <li data-key="snorkeling_equipment_sinbad">معدات الغطس</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Daily Diving Trip -->
+                <div class="col-md-6 mb-4" data-aos="fade-right">
+                    <div class="service-card">
+                        <img src="car/k10.webp" alt="الغوص في الغردقة" class="img-fluid rounded">
+                        <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                        <div>
+                            <h5 data-key="daily_diving_trip">الغوص اليومي في الغردقة</h5>
+                            <p data-key="daily_diving_description">تجربة غوص يومية لاستكشاف جمال عالم ما تحت الماء.</p>
+                            <div class="tour-highlights">
+                                <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                                <ul>
+                                    <li data-key="two_dives">غطستين يوميًا في مواقع غوص مختلفة</li>
+                                    <li data-key="lunch_on_boat">غداء ومشروبات على متن القارب</li>
+                                </ul>
+                            </div>
+                            <div class="included-section">
+                                <h5 data-key="included">يشمل:</h5>
+                                <ul>
+                                    <li data-key="pickup_service_daily">الاستقبال والتوصيل من الفندق</li>
+                                    <li data-key="snorkeling_equipment_daily">معدات الغطس</li>
+                                    <li data-key="taxes_service_fees_daily">جميع الضرائب ورسوم الخدمة</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Paradise Island Trip -->
+                    <div class="col-md-6 mb-4" data-aos="fade-right">
+                        <div class="service-card">
+                            <img src="photo/m31.jpg" alt="جزيرة بارادايس" class="img-fluid rounded">
+                            <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                            <div>
+                                <h5 data-key="paradise_island_trip">رحلة إلى جزيرة بارادايس مع الغوص والغطس السطحي من
+                                    الغردقة</h5>
+                                <p data-key="paradise_island_description">استمتع بالغوص والغطس السطحي، والاسترخاء على
+                                    الشاطئ
+                                    الجميل.</p>
+                                <div class="tour-highlights">
+                                    <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                                    <ul>
+                                        <li data-key="snorkeling_paradise">غوص في مواقع مختلفة واستكشاف الشعاب
+                                            المرجانية
+                                        </li>
+                                        <li data-key="lunch_on_boat_paradise">استمتع بغداء شهي على متن القارب</li>
+                                    </ul>
+                                </div>
+                                <div class="included-section">
+                                    <h5 data-key="included">يشمل:</h5>
+                                    <ul>
+                                        <li data-key="pickup_service_paradise">خدمة التوصيل من وإلى الفندق</li>
+                                        <li data-key="snorkeling_equipment_paradise">معدات الغطس والغطس السطحي</li>
+                                        <li data-key="taxes_service_fees_paradise">جميع الضرائب ورسوم الخدمة</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Orange Bay Trip -->
+                        <div class="col-md-6 mb-4" data-aos="fade-right">
+                            <div class="service-card">
+                                <img src="car/k19.jpeg" alt="جزيرة أورانج باي" class="img-fluid rounded">
+                                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                                <div>
+                                    <h5 data-key="orange_bay_trip">رحلة غطس إلى جزيرة أورانج باي من الغردقة</h5>
+                                    <p data-key="orange_bay_description">استمتع بيوم كامل في جزيرة أورانج باي مع الغوص
+                                        والغطس.</p>
+                                    <div class="tour-highlights">
+                                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                                        <ul>
+                                            <li data-key="snorkeling_orange_bay">استكشاف الجزيرة والاستمتاع بالمياه
+                                                الصافية
+                                            </li>
+                                            <li data-key="delicious_lunch_orange_bay">غداء طازج على متن القارب</li>
+                                        </ul>
+                                    </div>
+                                    <div class="included-section">
+                                        <h5 data-key="included">يشمل:</h5>
+                                        <ul>
+                                            <li data-key="pickup_service_orange_bay">خدمة التوصيل من وإلى الفندق</li>
+                                            <li data-key="snorkeling_equipment_orange_bay">معدات الغطس والغطس السطحي
+                                            </li>
+                                            <li data-key="taxes_service_fees_orange_bay">جميع الضرائب ورسوم الخدمة</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pirate Sailing Trip -->
+                        <div class="col-md-6 mb-4" data-aos="fade-right">
+                            <div class="service-card">
+                                <img src="car/k6.webp" alt="رحلة القراصنة" class="img-fluid rounded">
+                                <a href="#contact" class="btn btn-primary" data-key="book_now">احجز الآن</a>
+                                <div>
+                                    <h5 data-key="pirate_sailing_trip">رحلة القراصنة الشراعية المميزة من الغردقة</h5>
+                                    <p data-key="pirate_sailing_description">استمتع برحلة إبحار رائعة على متن القارب
+                                        الشراعي الوحيد
+                                        في
+                                        الغردقة.</p>
+                                    <div class="tour-highlights">
+                                        <h5 data-key="tour_highlights">نظرة عامة:</h5>
+                                        <ul>
+                                            <li data-key="snorkeling_stops">محطتين للغطس في محميات الشعاب المرجانية</li>
+                                            <li data-key="seafood_lunch">استمتع بغداء شهي من المأكولات البحرية</li>
+                                        </ul>
+                                    </div>
+                                    <div class="included-section">
+                                        <h5 data-key="included">يشمل:</h5>
+                                        <ul>
+                                            <li data-key="pickup_service">خدمة التوصيل من وإلى الفندق</li>
+                                            <li data-key="seafood_buffet">غداء مأكولات بحرية ولحوم في بوفيه مفتوح</li>
+                                            <li data-key="taxes_service_fees">جميع الضرائب ورسوم الخدمة</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Parasailing Trip -->
+<section id="gallery" class="gallery">
+    <div class="container">
+        <h2 class="text-center mb-4" data-key="gallery_title">معرض الصور</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g1.jpg" alt="صورة 1" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g2.jpg" alt="صورة 2" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g3.jpg" alt="صورة 3" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g4.jpeg" alt="صورة 4" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g5.jpeg" alt="صورة 5" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g7.webp" alt="صورة 6" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g9.webp" alt="صورة 7" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g10.jpeg" alt="صورة 8" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g12.jpeg" alt="صورة 9" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g13.jpg" alt="صورة 10" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g14.jpeg" alt="صورة 11" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g15.jpg" alt="صورة 12" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g6.jpeg" alt="صورة 13" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g11.webp" alt="صورة 14" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="gallery/g8.webp" alt="صورة 15" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="video" class="bg-light">
+    <div class="container1" data-aos="fade-up">
+        <h2 class="text-center mb-4" data-key="video_title">جولة فيديو</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h5 data-key="video_new_title">جولة في خدماتنا</h5>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CLkfkiXZ7yo" allowfullscreen></iframe>
+                </div>
+                <p data-key="video_new_text">استعرض خدمات النقل لدينا من خلال هذه الجولة.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h5 data-key="video_new_title_2">تجارب العملاء</h5>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dzi3BvpwdKU" allowfullscreen></iframe>
+                </div>
+                <p data-key="video_old_text">استمع إلى تجارب عملائنا مع N-M Travel.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="map" class="map">
+    <div class="container1">
+        <h2 class="text-center mb-4" data-key="map_title">موقعنا</h2>
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe class="embed-responsive-item"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456!2d33.8123!3d27.2579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1451d59dc6c6b6c7%3A0x1f5f8f5f8f5f8f5f!2sHurghada!5e0!3m2!1sen!2seg!4v1633266117528!5m2!1sen!2seg"
+                    allowfullscreen></iframe>
+        </div>
+        <p data-key="map_text">تفضل بزيارة موقعنا في الغردقة للاستفادة من خدمات النقل لدينا.</p>
+    </div>
+</section>
+<!-- Features Section -->
+<section id="features" class="features">
+    <div class="container">
+        <h2 class="text-center mb-5" data-key="feat_title">مميزات خدماتنا</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4" data-aos="fade-right">
+                <div class="card p-4 text-center">
+                    <i class="material-icons">verified_user</i>
+                    <h5 data-key="feat_reliable">خدمات موثوقة</h5>
+                    <p data-key="feat_reliable_text">نقل آمن ومضمون لجميع عملائنا.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+                <div class="card p-4 text-center">
+                    <i class="material-icons">attach_money</i>
+                    <h5 data-key="feat_affordable">أسعار ميسورة</h5>
+                    <p data-key="feat_affordable_text">أسعار تنافسية تناسب جميع الميزانيات.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" data-aos="fade-left">
+                <div class="card p-4 text-center">
+                    <i class="material-icons">access_time</i>
+                    <h5 data-key="feat_waiting_time">وقت انتظار غير محدود</h5>
+                    <p data-key="feat_waiting_time_text">نقل بلا ضغط مع وقت انتظار مرن.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-white">
+    <div class="container text-center" data-aos="fade-up">
+        <h2 data-key="contact_title">تواصل معنا</h2>
+        <p data-key="contact_text">للمزيد من المعلومات حول خدماتنا، لا تتردد في الاتصال بنا:</p>
+        <p><i class="material-icons">phone</i> +381691232565</p>
+        <p><i class="material-icons">phone</i> +201110083675</p>
+        <p><i class="material-icons">email</i> Nm.travel.eg@gmail.com</p>
+        <div class="social-box mt-3">
+            <a href="https://www.facebook.com/Nemanjavujicic"><img src="photo/I2.png" alt="Facebook" class="img-fluid"
+                                                                   style="width: 32px;"></a>
+            <a href="https://wa.me/381691232565"><img src="photo/I1.png" alt="WhatsApp" class="img-fluid"
+                                                      style="width: 32px;"></a>
+            <a href="https://t.me/NM-travel"><img src="photo/I.png" alt="Telegram" class="img-fluid"
+                                                  style="width: 32px;"></a>
+            <a href="https://vk.com/Nemanja-vujicic"><img src="photo/vk.png" alt="VK" class="img-fluid"
+                                                          style="width: 32px;"></a>
+            <a href="https://www.instagram.com/NEMANJAVU93/"><img src="photo/ins.png" alt="Instagram" class="img-fluid"
+                                                                  style="width: 32px;"></a>
+            <a href="https://www.tiktok.com/@Nemanja.vu93"><img src="photo/tek.png" alt="TikTok" class="img-fluid"
+                                                                style="width: 32px;"></a>
+            <a href="https://x.com/Nemanjavujicic"><img src="photo/x.png" alt="X" class="img-fluid"
+                                                        style="width: 32px;"></a>
+            <a href="https://www.facebook.com/NMTravel"><img src="photo/I2.png" alt="Facebook" class="img-fluid"
+                                                             style="width: 32px;"></a>
+            <a href="https://wa.me/201110083675"><img src="photo/I1.png" alt="WhatsApp" class="img-fluid"
+                                                      style="width: 32px;"></a>
+            <a href="https://t.me/NMTravel"><img src="photo/I.png" alt="Telegram" class="img-fluid"
+                                                 style="width: 32px;"></a>
+            <a href="https://vk.com/Mohamedabd-elmale"><img src="photo/vk.png" alt="VK" class="img-fluid"
+                                                            style="width: 32px;"></a>
+            <a href="https://www.instagram.com/Mohamedabd6786/"><img src="photo/ins.png" alt="Instagram"
+                                                                     class="img-fluid" style="width: 32px;"></a>
+            <a href="https://www.tiktok.com/Mohamed.abd.elma109"><img src="photo/tek.png" alt="TikTok"
+                                                                      class="img-fluid" style="width: 32px;"></a>
+            <a href="https://x.com/Mohamedabdelmalek"><img src="photo/x.png" alt="X" class="img-fluid"
+                                                           style="width: 32px;"></a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer_section bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2025 <span data-key="footer">N-M Travel</span>. <span data-key="rights">جميع الحقوق محفوظة.</span></p>
+    </div>
+</footer>
+<!-- JS Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
