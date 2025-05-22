@@ -1,10 +1,13 @@
-document.addEventListener('DOMContentLoaded', () => {
-        AOS.init({duration: 800, once: true});
-    }
-);
-
 const translations = {
     en: {
+        home: "Home",
+        about: "About Us",
+        services: "Our Services",
+        gallery: "Gallery",
+        video: "Video Tour",
+        map: "Map",
+        contact: "Contact Us",
+        language: "Language",
         english_guide: "English-speaking tour guide",
         quad_bike_experience: "Quad biking experience",
         scarf: "Scarf",
@@ -629,10 +632,20 @@ const translations = {
         footer: "N-M Travel",
         rights: "All rights reserved.",
         summer_offer: "25% Summer Discount Now!",
-        book_now: "Book now"
+        book_now: "Book now",
+        cultural_trip: "Cultural Trip",
+        safari_trip: "Safari Trip",
+        sea_trip: "Sea Trip",
     },
     ar: {
-
+        home: "الرئيسية",
+        about: "من نحن",
+        services: "خدماتنا",
+        gallery: "معرض الصور",
+        video: "جولة فيديو",
+        map: "خريطة الموقع",
+        contact: "اتصل بنا",
+        language: "اللغة",
         english_guide: "مرشد سياحي يتحدث الإنجليزية",
         quad_bike_experience: "تجربة ركوب الدراجات الرباعية",
         scarf: "وشاح",
@@ -708,6 +721,7 @@ const translations = {
 
         airport_transfers_soma: "نقل إلى خليج سوما وسفاجا",
         airport_transfers_soma_description: "استمتع بتجربة نقل مريحة مع خيارات تناسب مجموعتك:",
+
 
         limousine_option_soma: "🚘 ليموزين (حتى 4 أشخاص)",
         van_option_soma: "🚐 فان (حتى 13 شخصًا)",
@@ -1359,96 +1373,126 @@ const translations = {
 
         paradise_island_description: "استمتع بالغوص والتسوق، واسترخ على الشاطئ الجميل.",
         snorkeling_paradise: "الغوص في مواقع مختلفة واستكشاف الشعاب المرجانية",
-
         lunch_on_boat_paradise: "استمتع بغداء لذيذ على متن القارب",
         included: "ما يشمل:",
-
         pickup_service_paradise: "الاستقبال والتوصيل من الفندق",
         snorkeling_equipment_paradise: "معدات الغوص والتسوق",
-
         taxes_service_fees_paradise: "جميع الضرائب ورسوم الخدمة",
         price_info: "السعر:",
-
         price_per_person_paradise: "50 دولار أمريكي للشخص الواحد",
         orange_bay_trip: "رحلة غوص إلى جزيرة أورانج باي من الغردقة",
-
         orange_bay_description: "استمتع بيوم كامل في أورانج باي مع الغوص والتسوق.",
         snorkeling_orange_bay: "استكشاف الجزيرة والاستمتاع بالمياه الصافية",
-
         delicious_lunch_orange_bay: "غداء طازج على متن القارب",
         included: "ما يشمل:",
-
         pickup_service_orange_bay: "الاستقبال والتوصيل من الفندق",
         snorkeling_equipment_orange_bay: "معدات الغوص",
-
         taxes_service_fees_orange_bay: "جميع الضرائب ورسوم الخدمة",
         price_info: "السعر:",
-
         price_per_person_orange_bay: "50 دولار أمريكي للشخص الواحد",
         pirate_sailing_trip: "رحلة بحرية فريدة على متن قارب قراصنة من الغردقة",
-
         pirate_sailing_description: "استمتع برحلة بحرية رائعة على متن القارب الوحيد في الغردقة.",
         snorkeling_stops: "محطتين للغوص في محميات الشعاب المرجانية",
-
         seafood_lunch: "استمتع بغداء بوفيه من المأكولات البحرية اللذيذة",
         included: "ما يشمل:",
-
         pickup_service: "الاستقبال والتوصيل من الفندق",
         seafood_buffet: "بوفيه مأكولات بحرية ولحوم",
-
         taxes_service_fees: "جميع الضرائب ورسوم الخدمة",
         price_info: "السعر:",
-
         price_per_person: "70 دولار أمريكي للشخص الواحد",
         gallery_title: "معرض الصور",
-
         video_title: "جولة فيديو",
         video_new_title: "جولة في خدماتنا",
-
         video_new_text: "تصفح خدمات النقل الخاصة بنا من خلال هذه الجولة.",
         video_new_title_2: "تجارب العملاء",
-
         video_old_text: "استمع إلى تجارب عملائنا مع N-M Travel.",
         map_title: "موقعنا",
-
         map_text: "قم بزيارتنا في الغردقة للاستفادة من خدمات النقل لدينا.",
         feat_title: "ميزات خدماتنا",
-
         feat_reliable: "خدمات موثوقة",
         feat_reliable_text: "نقل آمن ومضمون لجميع عملائنا.",
-
         feat_affordable: "أسعار معقولة",
         feat_affordable_text: "أسعار تنافسية تناسب جميع الميزانيات.",
-
         feat_waiting_time: "وقت انتظار غير محدود",
         feat_waiting_time_text: "نقل خالٍ من التوتر مع وقت انتظار مرن.",
-
         contact_title: "اتصل بنا",
         contact_text: "لمزيد من المعلومات حول خدماتنا، لا تتردد في الاتصال بنا:",
-
         phone1: "+381691232565",
         phone2: "+201110083675",
         email: "Nm.travel.eg@gmail.com",
-
         map_title: "موقعنا",
         map_text: "قم بزيارتنا في الغردقة للاستفادة من خدمات النقل لدينا.",
-
         footer: "N-M Travel",
         rights: "جميع الحقوق محفوظة.",
         summer_offer: "خصم صيفي 25% الآن!",
-        book_now: "احجز الآن"
+        book_now: "احجز الآن",
+        cultural_trip: "رحلة ثقافية",
+        safari_trip: "رحله سفاري",
+        sea_trip: "رحله بحر",
 
 
     },
 
     sr: {
+        cultural_trip: "Kulturno putovanje",
+        safari_trip: "Safari putovanje",
+        sea_trip: "Morsko putovanje",
+        sunglasses_morning: "Sunglasses",
+        scarf_morning: "Šal",
+        comfortable_shoes_morning: "Udobne cipele",
+        sunglasses_morning: "Sunglasses",
+        scarf_morning: "Šal",
+        comfortable_shoes_morning: "Udobne cipele",
+
+
+        english_guide: "Turistički vodič koji govori engleski",
+        quad_bike_experience: "Iskustvo vožnje quad biciklom",
+        scarf: "Šal",
+        what_to_bring_dolphin: "Šta poneti:",
+        sunglasses_dune_buggy: "Sunglasses",
+        scarf_dune_buggy: "Šal",
+        comfortable_shoes_dune_buggy: "Udobne cipele",
+        sunglasses_morning_dune_buggy: "Sunglasses",
+        scarf_morning_dune_buggy: "Šal",
+        comfortable_shoes_morning_dune_buggy: "Udobne cipele",
+        mahmya_island_trip: "Jednodnevni izlet na Mahmya ostrvo iz Hurghade",
+        mahmya_island_description: "Krenite na putovanje do skrivenog raja posetivši Mahmya ostrvo, mirno utočište uz obalu Hurghade.",
+        sunglasses_abu_dabbab: "Sunglasses",
+        sunscreen_abu_dabbab: "Sredstvo za sunčanje",
+        towel_abu_dabbab: "Peškir",
+        sunglasses_dolphin: "Sunglasses",
+        sunscreen_dolphin: "Sredstvo za sunčanje",
+        towel_dolphin: "Peškir",
+
+        airport_pickup_dropoff: "Preuzimanje i vraćanje sa aerodroma",
+        luxury_hotels: "Smeštaj u luksuznim 5-zvezdastim hotelima",
+        luxury_nile_cruise: "Luksuzna Nilova krstarenja između Luxora i Asuana",
+        meals_as_per_program: "Mahlzeiten gemäß dem Programm",
+        tickets_to_attractions: "Sve ulaznice za turističke atrakcije",
         nav_home: "Početna",
-        nav_about: "O Nama",
-        nav_services: "Naše Usluge",
-        nav_gallery: "Galerija Slika",
-        nav_video: "Video Tura",
-        nav_map: "Mapa Lokacije",
-        nav_contact: "Kontaktirajte Nas",
+        nav_about: "O nama",
+        nav_services: "Naše usluge",
+        nav_gallery: "Fotogalerija",
+        nav_video: "Video tura",
+        nav_map: "Karta lokacije",
+        nav_contact: "Kontaktirajte nas",
+
+        paradise_highlight_1: "Uživajte u raju sa čistim vodama i mekim belim peskom",
+        paradise_highlight_2: "Uronite u živopisni podvodni svet",
+        paradise_highlight_3: "Uživajte u zabavnim aktivnostima na plaži poput odbojke",
+        entry_fees: "Ulaznice",
+        water_sports: "Vodne sportske aktivnosti (vožnja na banani, vožnja na sofi)",
+        photoshoot_area: "Napravite zapanjujuće fotografije u slikovitom foto području",
+
+
+        home: "Početna",
+        about: "O Nama",
+        services: "Naše Usluge",
+        gallery: "Galerija Slika",
+        video: "Video Tura",
+        map: "Mapa Lokacije",
+        contact: "Kontaktirajte Nas",
+        language: "Jezik",
 
         hero_title: "Uživajte u Udavnom Putovanju sa N-M Travel",
         hero_text: "Nudimo pouzdane i pristupačne usluge prevoza u Hurghadi i okolini.",
@@ -2166,14 +2210,54 @@ const translations = {
         book_now: "Rezervišite sada"
     },
     de: {
+        cultural_trip: "Kulturelle Reise",
+        safari_trip: "Safari-Reise",
+        sea_trip: "Meerreise",
+
+        english_guide: "Englischsprachiger Reiseleiter",
+        quad_bike_experience: "Quad-Bike-Erfahrung",
+        scarf: "Schal",
+        what_to_bring_dolphin: "Was Sie mitbringen sollten:",
+        sunglasses_dune_buggy: "Sonnenbrille",
+        scarf_dune_buggy: "Schal",
+        comfortable_shoes_dune_buggy: "Bequeme Schuhe",
+        sunglasses_morning_dune_buggy: "Sonnenbrille",
+        scarf_morning_dune_buggy: "Schal",
+        comfortable_shoes_morning_dune_buggy: "Bequeme Schuhe",
+        mahmya_island_trip: "Eintägiger Ausflug zur Mahmya-Insel von Hurghada",
+        mahmya_island_description: "Unternehmen Sie eine Reise zu einem versteckten Paradies, indem Sie die Mahmya-Insel besuchen, einen ruhigen Ort vor der Küste von Hurghada.",
+        sunglasses_dolphin: "Sonnenbrille",
+        sunscreen_dolphin: "Sonnenschutz",
+        towel_dolphin: "Handtuch",
+
+        airport_pickup_dropoff: "Flughafenabholung und -rücktransfer",
+        luxury_hotels: "Unterkunft in luxuriösen 5-Sterne-Hotels",
+        luxury_nile_cruise: "Luxuriöse Nilkreuzfahrt zwischen Luxor und Assuan",
+        meals_as_per_program: "Mahlzeiten gemäß dem Programm",
+        tickets_to_attractions: "Alle Eintrittskarten zu touristischen Attraktionen",
+
         nav_home: "Startseite",
         nav_about: "Über uns",
         nav_services: "Unsere Dienstleistungen",
         nav_gallery: "Fotogalerie",
-        nav_video: "Videotour",
-        nav_map: "Lageplan",
+        nav_video: "Video Tour",
+        nav_map: "Standortkarte",
         nav_contact: "Kontaktieren Sie uns",
 
+        van_option_sahl: "🚐 Van (bis zu 13 Personen)",
+        what_to_bring_quad: "Was Sie mitbringen sollten:",
+        sunglasses_quad: "Sonnenbrille",
+        scarf_quad: "Schal",
+        comfortable_shoes_quad: "Bequeme Schuhe",
+        swim_with_manatees: "Schnorcheln mit Manatis und Schildkröten",
+        home: "Startseite",
+        about: "Über uns",
+        services: "Unsere Dienstleistungen",
+        gallery: "Galerie",
+        video: "Videotour",
+        map: "Karte",
+        contact: "Kontaktieren Sie uns",
+        language: "Sprache",
         hero_title: "Genießen Sie eine komfortable Reise mit N-M Travel",
         hero_text: "Wir bieten zuverlässige und erschwingliche Transportdienste in Hurghada und Umgebung an.",
         hero_cta: "Entdecken Sie unsere Dienstleistungen",
@@ -2871,15 +2955,14 @@ const translations = {
 
     },
     ru: {
-
-        nav_home: "Главная",
-        nav_about: "О нас",
-        nav_services: "Наши услуги",
-        nav_gallery: "Галерея фото",
-        nav_video: "Видеотур",
-        nav_map: "Карта местоположения",
-        nav_contact: "Связаться с нами",
-
+        home: "Главная",
+        about: "О нас",
+        services: "Наши услуги",
+        gallery: "Галерея",
+        video: "Видеотур",
+        map: "Карта",
+        contact: "Связаться с нами",
+        language: "Язык",
         hero_title: "Наслаждайтесь комфортным путешествием с N-M Travel",
         hero_text: "Мы предлагаем надежные и доступные транспортные услуги в Хургаде и окрестностях.",
         hero_cta: "Откройте для себя наши услуги",
@@ -3531,7 +3614,10 @@ const translations = {
         sunscreen_abu_dabbab: "Солнцезащитный крем",
         towel_abu_dabbab: "Полотенце",
         summer_offer: "Летняя скидка 25% прямо сейчас!",
-        book_now: "Забронируйте сейчас"
+        book_now: "Забронируйте сейчас",
+        cultural_trip: "Культурная поездка",
+        safari_trip: "Сафари-поездка",
+        sea_trip: "Морская поездка"
 
     }
 };

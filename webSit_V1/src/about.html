@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>خدمات النقل من N-M Travel</title>
+    <meta name="description"
+          content="N-M Travel — خدمات نقل استثنائية بأسعار لا تقبل المنافسة في الغردقة والمناطق المحيطة.">
+    <!-- CSS Libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body data-lang="">
+<canvas id="confetti-canvas"></canvas>
+<header class="header_section fixed-top bg-white">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#home" data-key="brand">N-M Travel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"
+                    aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="home" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="about" href="about.html">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="services" href="services.html">خدماتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="gallery" href="gallery.html">معرض الصور</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="video" href="video.html">جولة فيديو</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="map" href="map.html">خريطة الموقع</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="contact" href="contact.html">اتصل بنا</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <select class="form-select btn-primary" id="languageSelect" onchange="changeLanguage()">
+                        <option value="ar" selected>العربية</option>
+                        <option value="en">English</option>
+                        <option value="sr">Serbian</option>
+                        <option value="de">German</option>
+                        <option value="ru">Russian</option>
+                    </select>
+                </div>
+            </div>
+            <a>
+                <img src="/photo/log.jpg" class="logo" alt="N-M Travel Logo">
+            </a>
+        </nav>
+    </div>
+    <a>
+        <a href="https://wa.me/+381691232565"><img src="../photo/I1.png" alt="WhatsApp" class="img-fluid"
+                                                   style="width: 32px;"></a>
+        <a href="https://wa.me/201110083675"><img src="../photo/I1.png" alt="WhatsApp" class="img-fluid"
+                                                  style="width: 32px;"></a>
+    </a>
+</header>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="text-center mb-4" data-key="about_title">N-M Travel</h2>
+
+        <p data-key="about_text">
+            N-M Travel هي شركة رائدة في تقديم خدمات السفر، نفخر بتقديم تجارب فريدة ولا تُنسى لعملائنا حول العالم.
+            مع أكثر من 20 عامًا من الخبرة في صناعة السياحة، نحن متخصصون في توفير مجموعة واسعة من الجولات والأنشطة، بما
+            في ذلك:
+        </p>
+
+        <ul>
+            <li data-key="about_list_cruises">
+                رحلات بحرية: استمتع بجولات قوارب مذهلة لاكتشاف أجمل الشواطئ والجزر، مع خدمات عالية الجودة على متن سفن
+                حديثة.
+            </li>
+            <li data-key="about_list_safari">
+                مغامرات السفاري: انطلق في رحلات سفاري مثيرة لاستكشاف الصحراء والاستمتاع برحلات مثيرة في مناظر طبيعية
+                خلابة.
+            </li>
+            <li data-key="about_list_culture">
+                جولات ثقافية: انغمس في التاريخ الغني والثقافة المحلية من خلال جولات إرشادية إلى المواقع التاريخية
+                والمعالم الفريدة.
+            </li>
+            <li data-key="about_list_entertainment">
+                أنشطة ترفيهية: نقدم مجموعة متنوعة من الأنشطة الترفيهية التي تلبي جميع الاهتمامات، مما يضمن تجربة ممتعة
+                للجميع.
+            </li>
+            <li data-key="about_list_water_sports">
+                رياضات مائية: اغمر نفسك في مجموعة من الأنشطة المائية المثيرة، من الغوص والركمجة إلى مجموعة متنوعة من
+                الألعاب الرياضية الشاطئية.
+            </li>
+        </ul>
+
+        <p data-key="about_commitment">
+            نحن نؤمن بأن العزيمة هي مصدر إلهامنا، وأن العمل الجاد هو وسيلتنا وهدفنا في تقديم أفضل تجربة سفر.
+            مع خبرتنا الطويلة في هذا المجال، نحن ملتزمون بتقديم خدمات سياحية استثنائية ولا تُنسى.
+            نحن دائمًا فخورون بعملنا ونتطلع إلى العمل معك لإنشاء تجارب سفر مذهلة وآمنة.
+        </p>
+
+        <h3 data-key="vision_title">رؤيتنا</h3>
+
+        <p data-key="vision_text1">
+            في N-M Travel، نهدف إلى أن نكون روادًا في تقديم تجارب سفر مبتكرة وممتعة على مستوى العالم.
+            رؤيتنا هي أن نكون الخيار الأول للمسافرين الذين يبحثون عن مغامرات لا تُنسى من خلال تقديم خدمات سفر شاملة تلبي
+            جميع احتياجات العملاء.
+        </p>
+
+        <p data-key="vision_text2">
+            نطمح إلى التوسع في أسواق جديدة وتطوير تقنيات مبتكرة لتعزيز تجربة العملاء، مع الحفاظ على أعلى معايير الجودة
+            والاحترافية.
+            نحن نؤمن بأن السفر ليس مجرد ترفيه، بل هو أيضًا تعلم واكتشاف، ولهذا نسعى لتقديم تجارب ثقافية متكاملة تساهم في
+            الوعي البيئي والثقافي.
+        </p>
+
+        <h3 data-key="goal_title">هدفنا</h3>
+
+        <p data-key="goal_text1">
+            هدفنا في N-M Travel هو تقديم تجارب سفر استثنائية تلبي جميع الأذواق وتلبي احتياجات المسافرين حول العالم.
+            نحن ملتزمون بأن نكون الخيار الأول لعملائنا من خلال توفير مجموعة واسعة من الجولات والأنشطة، من الرحلات
+            البحرية الممتعة إلى مغامرات السفاري المثيرة.
+        </p>
+
+        <p data-key="goal_text2">
+            نهدف إلى التميز في كل خدمة نقدمها، مع ضمان الجودة العالية والسلامة والراحة لعملائنا في كل مرحلة من مراحل
+            رحلتهم.
+            من خلال الابتكار المستمر، نحن ملتزمون بتقديم حلول سفر فريدة تجعل كل تجربة سفر لا تُنسى.
+        </p>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer_section bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2025 <span data-key="footer">N-M Travel</span>. <span data-key="rights">جميع الحقوق محفوظة.</span></p>
+    </div>
+</footer>
+<!-- JS Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script src="../script.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Initialize AOS
+        AOS.init({duration: 800, once: true});
+
+        // Navbar toggle functionality
+        const toggleButton = document.querySelector('.navbar-toggler');
+        const navMenu = document.getElementById('navContent');
+        toggleButton.addEventListener('click', function (event) {
+            navMenu.classList.toggle('show');
+            toggleButton.classList.toggle('active');
+            event.stopPropagation();
+        });
+        document.addEventListener('click', function (event) {
+            if (!navMenu.contains(event.target) && !toggleButton.contains(event.target)) {
+                navMenu.classList.remove('show');
+                toggleButton.classList.remove('active');
+            }
+        });
+
+        // Language change functions
+        function changeLanguage() {
+            const lang = document.getElementById('languageSelect').value;
+            localStorage.setItem('language', lang); // Store selected language
+            updateTranslations(lang);
+        }
+
+        function updateTranslations(lang) {
+            const links = document.querySelectorAll('.nav-link');
+            links.forEach(link => {
+                const key = link.getAttribute('data-key');
+                if (translations[lang][key]) {
+                    link.innerText = translations[lang][key];
+                }
+            });
+            document.querySelector('.navbar-brand').innerText = translations[lang].brand || "N-M Travel";
+        }
+
+        // Set language on page load
+        const savedLang = localStorage.getItem('language') || 'ar'; // Default to Arabic
+        document.getElementById('languageSelect').value = savedLang;
+        updateTranslations(savedLang);
+
+        // Add event listener for language selection
+        document.getElementById('languageSelect').addEventListener('change', changeLanguage);
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const toggler = document.querySelector(".navbar-toggler");
+        const navMenu = document.querySelector(".navbar ul");
+
+        toggler.addEventListener("click", () => {
+            navMenu.classList.toggle("show");
+        });
+    });
+</script>
+</body>
+</html>

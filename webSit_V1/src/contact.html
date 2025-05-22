@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>خدمات النقل من N-M Travel</title>
+    <meta name="description"
+          content="N-M Travel — خدمات نقل استثنائية بأسعار لا تقبل المنافسة في الغردقة والمناطق المحيطة.">
+
+    <!-- CSS Libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body data-lang="">
+<canvas id="confetti-canvas"></canvas>
+<header class="header_section fixed-top bg-white">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#home" data-key="brand">N-M Travel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"
+                    aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="home" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="about" href="about.html">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="services" href="services.html">خدماتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="gallery" href="gallery.html">معرض الصور</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="video" href="video.html">جولة فيديو</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="map" href="map.html">خريطة الموقع</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-key="contact" href="contact.html">اتصل بنا</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <select class="form-select btn-primary" id="languageSelect" onchange="changeLanguage()">
+                        <option value="ar" selected>العربية</option>
+                        <option value="en">English</option>
+                        <option value="sr">Serbian</option>
+                        <option value="de">German</option>
+                        <option value="ru">Russian</option>
+                    </select>
+                </div>
+            </div>
+            <a>
+                <img src="/photo/log.jpg" class="logo" alt="N-M Travel Logo">
+            </a>
+        </nav>
+    </div>
+</header>
+<!-- Contact Section -->
+<section id="contact" class="bg-white">
+    <div class="container text-center" data-aos="fade-up">
+        <h2 data-key="contact_title">تواصل معنا</h2>
+        <p data-key="contact_text">للمزيد من المعلومات حول خدماتنا، لا تتردد في الاتصال بنا:</p>
+        <p><i class="material-icons">phone</i> +381691232565</p>
+        <p><i class="material-icons">phone</i> +201110083675</p>
+        <p><i class="material-icons">email</i> Nm.travel.eg@gmail.com</p>
+        <div class="social-box mt-3">
+            <a href="https://www.facebook.com/Nemanjavujicic"><img src="../photo/I2.png" alt="Facebook"
+                                                                   class="img-fluid"
+                                                                   style="width: 32px;"></a>
+            <a href="https://wa.me/381691232565"><img src="../photo/I1.png" alt="WhatsApp" class="img-fluid"
+                                                      style="width: 32px;"></a>
+            <a href="https://t.me/NM-travel"><img src="../photo/I.png" alt="Telegram" class="img-fluid"
+                                                  style="width: 32px;"></a>
+            <a href="https://vk.com/Nemanja-vujicic"><img src="../photo/vk.png" alt="VK" class="img-fluid"
+                                                          style="width: 32px;"></a>
+            <a href="https://www.instagram.com/NEMANJAVU93/"><img src="../photo/ins.png" alt="Instagram"
+                                                                  class="img-fluid"
+                                                                  style="width: 32px;"></a>
+            <a href="https://www.tiktok.com/@Nemanja.vu93"><img src="../photo/tek.png" alt="TikTok" class="img-fluid"
+                                                                style="width: 32px;"></a>
+            <
+            <a href="https://www.facebook.com/NMTravel"><img src="../photo/I2.png" alt="Facebook" class="img-fluid"
+                                                             style="width: 32px;"></a>
+            <a href="https://wa.me/201110083675"><img src="../photo/I1.png" alt="WhatsApp" class="img-fluid"
+                                                      style="width: 32px;"></a>
+            <a href="https://t.me/NMTravel"><img src="../photo/I.png" alt="Telegram" class="img-fluid"
+                                                 style="width: 32px;"></a>
+            <a href="https://vk.com/Mohamedabd-elmale"><img src="../photo/vk.png" alt="VK" class="img-fluid"
+                                                            style="width: 32px;"></a>
+            <a href="https://www.instagram.com/Mohamedabd6786/"><img src="../photo/ins.png" alt="Instagram"
+                                                                     class="img-fluid" style="width: 32px;"></a>
+            <a href="https://www.tiktok.com/Mohamed.abd.elma109"><img src="../photo/tek.png" alt="TikTok"
+                                                                      class="img-fluid" style="width: 32px;"></a>
+
+        </div>
+    </div>
+</section>
+<!-- Footer Section -->
+<footer class="footer_section bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2025 <span data-key="footer">N-M Travel</span>. <span data-key="rights">جميع الحقوق محفوظة.</span></p>
+    </div>
+</footer>
+<!-- JS Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script src="../script.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Initialize AOS
+        AOS.init({duration: 800, once: true});
+
+        // Navbar toggle functionality
+        const toggleButton = document.querySelector('.navbar-toggler');
+        const navMenu = document.getElementById('navContent');
+        toggleButton.addEventListener('click', function (event) {
+            navMenu.classList.toggle('show');
+            toggleButton.classList.toggle('active');
+            event.stopPropagation();
+        });
+        document.addEventListener('click', function (event) {
+            if (!navMenu.contains(event.target) && !toggleButton.contains(event.target)) {
+                navMenu.classList.remove('show');
+                toggleButton.classList.remove('active');
+            }
+        });
+
+        // Language change functions
+        function changeLanguage() {
+            const lang = document.getElementById('languageSelect').value;
+            localStorage.setItem('language', lang); // Store selected language
+            updateTranslations(lang);
+        }
+
+        function updateTranslations(lang) {
+            const links = document.querySelectorAll('.nav-link');
+            links.forEach(link => {
+                const key = link.getAttribute('data-key');
+                link.innerText = translations[lang][key];
+            });
+            document.querySelector('.navbar-brand').innerText = translations[lang].brand || "N-M Travel";
+        }
+
+        // Set language on page load
+        const savedLang = localStorage.getItem('language') || 'ar'; // Default to Arabic
+        document.getElementById('languageSelect').value = savedLang;
+        updateTranslations(savedLang);
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const toggler = document.querySelector(".navbar-toggler");
+        const navMenu = document.querySelector(".navbar ul");
+
+        toggler.addEventListener("click", () => {
+            navMenu.classList.toggle("show");
+        });
+    });
+</script>
+</body>
+</html>
