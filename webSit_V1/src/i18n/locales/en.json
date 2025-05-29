@@ -1,0 +1,104 @@
+{
+  "home": "Home",
+  "about": "About",
+  "services": "Services",
+  "promotions": "Promotions",
+  "events": "Events",
+  "blog": "Blog",
+  "photos": "Photos",
+  "contact": "Contact",
+  "admin": {
+    "login": "Admin Login",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Sign In",
+    "dashboard": "Admin Dashboard",
+    "manageTours": "Manage Tours",
+    "addTour": "Add New Tour",
+    "editTour": "Edit Tour",
+    "deleteTour": "Delete Tour",
+    "logout": "Logout"
+  },
+  "bookNow": "Book Now",
+  "viewDetails": "View Details",
+  "search": "Search",
+  "login": "Login",
+  "logout": "Logout",
+  "dashboard": "Dashboard",
+  "tours": {
+    "viewDetails": "View Details",
+    "bookNow": "Book Now",
+    "popular": "Popular Tours",
+    "popularDesc": "Discover our most popular tour packages",
+    "duration": "Duration",
+    "price": "Price",
+    "rating": "Rating",
+    "items": {
+      "snorkeling": {
+        "title": "Snorkeling Adventure",
+        "description": "Discover the vibrant underwater world with our expert guides"
+      },
+      "desert": {
+        "title": "Desert Safari",
+        "description": "Experience the thrill of desert adventures and traditional entertainment"
+      },
+      "yacht": {
+        "title": "Luxury Yacht Tour",
+        "description": "Enjoy a day of luxury and water activities on our private yacht"
+      }
+    }
+  },
+  "bookings": "Bookings",
+  "users": "Users",
+  "photos": "Photos",
+  "settings": "Settings",
+  "welcome": "Welcome to N_M_Travle",
+  "subtitle": "Red Sea Adventures",
+  "hero": {
+    "title": "Discover Unforgettable Adventures",
+    "subtitle": "Experience the best tours and activities in our beautiful destinations"
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "quality": "Premium Quality",
+    "qualityDesc": "We ensure the highest standards in all our services and experiences",
+    "experience": "Expert Guides",
+    "experienceDesc": "Our professional guides bring years of experience and local knowledge",
+    "support": "24/7 Support",
+    "supportDesc": "Round-the-clock assistance for all your travel needs"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Business Hours",
+    "message": "Send Message"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "quickLinks": "Quick Links",
+  "cta": {
+    "title": "Ready to Start Your Adventure?",
+    "description": "Book your tour today and create unforgettable memories",
+    "button": "Contact Us"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "viewImage": "View image {{number}}",
+    "close": "Close image"
+  },
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "add": "Add",
+  "edit": "Edit",
+  "delete": "Delete",
+  "submitting": "Submitting...",
+  "processing": "Processing...",
+  "createTour": "Create Tour",
+  "learnMore": "Learn More",
+  "chatNow": "Chat Now"
+} 

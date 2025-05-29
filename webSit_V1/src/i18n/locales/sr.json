@@ -1,0 +1,77 @@
+{
+  "home": "Početna",
+  "about": "O nama",
+  "services": "Usluge",
+  "promotions": "Promocije",
+  "events": "Događaji",
+  "blog": "Blog",
+  "photos": "Fotografije",
+  "contact": "Kontakt",
+  "admin": "Admin",
+  "bookNow": "Rezerviši",
+  "viewDetails": "Pogledaj detalje",
+  "search": "Pretraga",
+  "login": "Prijava",
+  "logout": "Odjava",
+  "dashboard": "Kontrolna tabla",
+  "tours": {
+    "popular": "Popularne ture",
+    "popularDesc": "Otkrijte naše najtraženije avanture na Crvenom moru",
+    "viewDetails": "Pogledaj detalje",
+    "duration": "Trajanje",
+    "price": "Cena",
+    "rating": "Ocena",
+    "items": {
+      "snorkeling": {
+        "title": "Avantura ronjenja na Crvenom moru",
+        "description": "Iskusite živopisni morski život Crvenog mora sa našom vođenom turom ronjenja."
+      },
+      "desert": {
+        "title": "Iskustvo pustinjske safari ture",
+        "description": "Krenite na uzbudljivu pustinjsku avanturu sa vožnjom kvadovima i tradicionalnom večerom."
+      },
+      "yacht": {
+        "title": "Luksuzna krstarenja jahtom",
+        "description": "Uživajte u danu luksuza na našoj privatnoj jahti sa ručkom i aktivnostima na vodi."
+      }
+    }
+  },
+  "bookings": "Rezervacije",
+  "users": "Korisnici",
+  "photos": "Fotografije",
+  "settings": "Podešavanja",
+  "welcome": "Dobrodošli u N_M_Travle",
+  "subtitle": "Avanture Crvenog mora",
+  "hero": {
+    "title": "Otkrijte Crveno more",
+    "subtitle": "Doživite nezaboravne avanture u Hurghadi"
+  },
+  "features": {
+    "title": "Zašto izabrati nas",
+    "quality": "Kvalitetna usluga",
+    "qualityDesc": "Profesionalni i iskusni turistički vodiči koji obezbeđuju najbolju uslugu",
+    "experience": "Bogato iskustvo",
+    "experienceDesc": "Godine iskustva u kreiranju nezaboravnih avantura na Crvenom moru",
+    "support": "24/7 podrška",
+    "supportDesc": "Pomoć 24/7 za sve vaše potrebe putovanja"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "address": "Adresa",
+    "phone": "Telefon",
+    "email": "Email",
+    "hours": "Radno vreme",
+    "message": "Pošalji poruku"
+  },
+  "footer": {
+    "rights": "Sva prava zadržana",
+    "privacy": "Politika privatnosti",
+    "terms": "Uslovi korišćenja"
+  },
+  "quickLinks": "Brzi linkovi",
+  "cta": {
+    "title": "Spremni za avanturu?",
+    "description": "Kontaktirajte nas danas da planirate vaše savršeno iskustvo na Crvenom moru",
+    "button": "Kontaktirajte nas"
+  }
+} 

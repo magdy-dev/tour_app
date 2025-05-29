@@ -1,0 +1,77 @@
+{
+  "home": "Startseite",
+  "about": "Über uns",
+  "services": "Dienstleistungen",
+  "promotions": "Aktionen",
+  "events": "Veranstaltungen",
+  "blog": "Blog",
+  "photos": "Fotos",
+  "contact": "Kontakt",
+  "admin": "Admin",
+  "bookNow": "Jetzt buchen",
+  "viewDetails": "Details anzeigen",
+  "search": "Suchen",
+  "login": "Anmelden",
+  "logout": "Abmelden",
+  "dashboard": "Dashboard",
+  "tours": {
+    "popular": "Beliebte Touren",
+    "popularDesc": "Entdecken Sie unsere gefragtesten Rotes Meer Abenteuer",
+    "viewDetails": "Details anzeigen",
+    "duration": "Dauer",
+    "price": "Preis",
+    "rating": "Bewertung",
+    "items": {
+      "snorkeling": {
+        "title": "Rotes Meer Schnorchel-Abenteuer",
+        "description": "Erleben Sie das lebendige Meeresleben des Roten Meeres mit unserer geführten Schnorcheltour."
+      },
+      "desert": {
+        "title": "Wüstensafari-Erlebnis",
+        "description": "Begeben Sie sich auf ein aufregendes Wüstenabenteuer mit Quad-Biking und traditionellem Abendessen."
+      },
+      "yacht": {
+        "title": "Luxus-Yacht-Kreuzfahrt",
+        "description": "Genießen Sie einen Tag Luxus auf unserer privaten Yacht mit Mittagessen und Wassersportaktivitäten."
+      }
+    }
+  },
+  "bookings": "Buchungen",
+  "users": "Benutzer",
+  "photos": "Fotos",
+  "settings": "Einstellungen",
+  "welcome": "Willkommen bei N_M_Travle",
+  "subtitle": "Rotes Meer Abenteuer",
+  "hero": {
+    "title": "Entdecken Sie das Rote Meer",
+    "subtitle": "Erleben Sie unvergessliche Abenteuer in Hurghada"
+  },
+  "features": {
+    "title": "Warum uns wählen",
+    "quality": "Qualitätsservice",
+    "qualityDesc": "Professionelle und erfahrene Reiseführer für den besten Service",
+    "experience": "Reiche Erfahrung",
+    "experienceDesc": "Jahrelange Expertise in der Gestaltung unvergesslicher Rotes Meer Abenteuer",
+    "support": "24/7 Unterstützung",
+    "supportDesc": "Rund-um-die-Uhr Unterstützung für alle Ihre Reisebedürfnisse"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "hours": "Öffnungszeiten",
+    "message": "Nachricht senden"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
+  },
+  "quickLinks": "Schnelllinks",
+  "cta": {
+    "title": "Bereit für ein Abenteuer?",
+    "description": "Kontaktieren Sie uns heute, um Ihr perfektes Rotes Meer Erlebnis zu planen",
+    "button": "Kontakt aufnehmen"
+  }
+} 
